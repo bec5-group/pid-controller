@@ -59,3 +59,5 @@ LMH6505|±3.5V ~ ±6V (2μA)|±7mA / ±0.6V|±2.4V~±3V|8-MSOP / 8-SOIC
 OPA827AID|±4V ~ ±18V (6mA)|(V-)+3 ~ (V+)-3|(V-)+3 ~ (V+)-3|8-MSOP / 8-SOIC
 AD8067|±2.5V ~ ±12V (7mA)|-12V ~ 9V (For ±12V) | ±11.7V (For ±12V)|SOT23-5
 LM7171BIM|±2.75V ~ ±18V (7mA)|±10V (?)|±10V (For ±15V)|8-SOIC
+DG467/DG468|±4.5V ~ ±20V (20μA)|||6-TSOP
+DG469|±4.5V ~ ±15V (3μA)|||8-MSOP / 8-SOIC
