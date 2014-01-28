@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3  Date: 2014年01月27日 星期一 20时40分03秒
+#encoding utf-8
+#
+# KPS-5
+#
+DEF KPS-5 U 0 0 Y Y 1 F N
+F0 "U" 0 100 60 H V C CNN
+F1 "KPS-5" 0 -100 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -200 150 200 -150 0 1 0 N
+S 200 -150 200 -150 0 1 0 N
+X AC(N) 1 -500 100 300 R 50 50 1 1 I
+X AC(L) 2 -500 -100 300 R 50 50 1 1 I
+X +Vo 3 500 -100 300 L 50 50 1 1 I
+X -Vo 4 500 100 300 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
