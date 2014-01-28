@@ -1,0 +1,55 @@
+PCBNEW-LibModule-V1  2014年01月28日 星期二 15时53分33秒
+# encoding utf-8
+Units mm
+$INDEX
+1814832
+$EndINDEX
+$MODULE 1814832
+Po 0 0 0 15 52E81876 00000000 ~~
+Li 1814832
+Sc 0
+AR 
+Op 0 0 0
+T0 0.35 -5.1 1 1 0 0.15 N V 21 N "1814832"
+T1 0.1 5.1 1 1 0 0.15 N V 21 N "VAL**"
+DS -4 -4 4 -4 0.15 21
+DS 4 -4 4 4 0.15 21
+DS 4 4 -4 4 0.15 21
+DS -4 4 -4 -4 0.15 21
+$PAD
+Sh "1" C 2.4 2.4 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -2.54
+$EndPAD
+$PAD
+Sh "3" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -2.54
+$EndPAD
+$PAD
+Sh "4" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 2.54
+$EndPAD
+$PAD
+Sh "5" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 2.54
+$EndPAD
+$EndMODULE 1814832
+$EndLIBRARY

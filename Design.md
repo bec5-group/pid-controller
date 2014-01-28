@@ -47,8 +47,14 @@
 
 8. Connectors
 
-    * S02-S101
-    * 101-106
+    1. Ribbon Cable
+
+        * S02-S101
+        * 101-106
+
+    2. SMA
+
+        1814832
 
 9. Potentiometers
 
