@@ -64,6 +64,10 @@
 
     RMCF0603FT*
 
+11. Surface Mount Capacitors
+
+    C1206C*
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
