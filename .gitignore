@@ -34,4 +34,6 @@ __pycache__/
 *.bak
 *.bck
 $*
-*.kicad_pcb-bak
+*.zip
+_autosave-*
+*.*-bak
