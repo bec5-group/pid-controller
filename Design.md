@@ -53,4 +53,5 @@
 # Parameters
 
 Part Number|Power|Input|Output
+-----------|-----|-----|------
 AD8421BR|+-2.5 ~ +-18|(V-)+2.3 ~ (V+)-1.8|(V-)+1.2 ~ (V+)-1.6
