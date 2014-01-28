@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年01月28日 星期二 09时02分18秒
+
+BeginCmp
+TimeStamp = /52E78A53;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78A8F;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78A71;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78A9E;
+Reference = C4;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78AAD;
+Reference = C5;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78A80;
+Reference = C6;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78A62;
+Reference = C7;
+ValeurCmp = CP1;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E782E5;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7B775;
+Reference = P2;
+ValeurCmp = CONN_5X2;
+IdModule  = VASCH5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78312;
+Reference = U1;
+ValeurCmp = KPS-5;
+IdModule  = KPS5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78397;
+Reference = U2;
+ValeurCmp = RB-0515S;
+IdModule  = RECOM_RB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E78388;
+Reference = U3;
+ValeurCmp = RB-0515S;
+IdModule  = RECOM_RB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7835A;
+Reference = U4;
+ValeurCmp = RB-0512D;
+IdModule  = RECOM_RB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E7833C;
+Reference = U5;
+ValeurCmp = RB-0505D;
+IdModule  = RECOM_RB;
+EndCmp
+
+EndListe

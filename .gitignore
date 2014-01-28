@@ -33,3 +33,5 @@ __pycache__/
 *.db
 *.bak
 *.bck
+$*
+*.kicad_pcb-bak
