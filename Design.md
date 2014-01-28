@@ -50,6 +50,10 @@
     * S02-S101
     * 101-106
 
+9. Potentiometers
+
+    84WR*LF
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
