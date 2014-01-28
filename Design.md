@@ -54,6 +54,10 @@
 
     84WR*LF
 
+10. Surface Mount Resistors
+
+    RMCF0603FT*
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
