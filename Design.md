@@ -1,7 +1,7 @@
 # Parts Selection
 1. Input buffer
 
-    AD8421
+    AD8421BR
 
 2. Variable gain
 
@@ -9,7 +9,7 @@
 
 3. Integrator Op-Amp
 
-    OPA827
+    OPA827AID
 
 4. P & D Op-Amp
 
@@ -49,3 +49,8 @@
 
     * S02-S101
     * 101-106
+
+# Parameters
+
+Part Number|Power|Input|Output
+AD8421BR|+-2.5 ~ +-18|(V-)+2.3 ~ (V+)-1.8|(V-)+1.2 ~ (V+)-1.6
