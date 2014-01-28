@@ -61,3 +61,6 @@ AD8067|±2.5V ~ ±12V (7mA)|-12V ~ 9V (For ±12V) | ±11.7V (For ±12V)|SOT23-5
 LM7171BIM|±2.75V ~ ±18V (7mA)|±10V (?)|±10V (For ±15V)|8-SOIC
 DG467/DG468|±4.5V ~ ±20V (20μA)|||6-TSOP
 DG469|±4.5V ~ ±15V (3μA)|||8-MSOP / 8-SOIC
+
+# Power Supply Board
+![[Power Supply Board Schematic](power/power.png)](power/power.png)
