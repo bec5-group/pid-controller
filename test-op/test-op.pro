@@ -1,4 +1,4 @@
-update=2014年01月28日 星期二 18时24分14秒
+update=2014年01月28日 星期二 18时52分34秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -63,12 +63,12 @@ LibName43=ad8067
 LibName44=sma
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=test-op.net
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
-PadSizeH="    1.100000"
-PadSizeV="    2.000000"
+PadSizeH="    0.020000"
+PadSizeV="    0.028000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -104,3 +104,4 @@ LibName19=kps5
 LibName20=84wr
 LibName21=1814932
 LibName22=c1206c
+LibName23=TSOP-6
