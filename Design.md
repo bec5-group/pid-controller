@@ -82,3 +82,6 @@ DG469|±4.5V ~ ±15V (3μA)|||8-MSOP / 8-SOIC
 
 # Power Supply Board
 ![[Power Supply Board Schematic](power/power.png)](power/power.png)
+
+# Test Board
+![[Test Board Schematic](test-op/test-op.png)](test-op/test-op.png)
