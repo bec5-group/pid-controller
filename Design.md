@@ -76,6 +76,16 @@
 
     SG3525A
 
+14. Low Noise Linear Low Dropout(LDO) Voltage Regulator
+
+    1. Negative
+
+        TPS7A30
+
+    2. Positive
+
+        TPS7A49
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
@@ -88,6 +98,8 @@ LM7171BIM|±2.75V ~ ±18V (7mA)|±10V (?)|±10V (For ±15V)|8-SOIC
 DG467/DG468|±4.5V ~ ±20V (20μA)|||6-TSOP
 DG469|±4.5V ~ ±15V (3μA)|||8-MSOP / 8-SOIC
 SG3525A|8V ~ 35V (±400mA Peak)|||16L-SOIC
+TPS7A30||3V ~ 35V|1.19V ~ 33V (150mA)|8-MSOP PowerPad
+TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 
 # Power Supply Board
 ![[Power Supply Board Schematic](power/power.png)](power/power.png)
