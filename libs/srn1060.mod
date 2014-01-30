@@ -1,0 +1,34 @@
+PCBNEW-LibModule-V1  2014年01月30日 星期四 15时27分24秒
+# encoding utf-8
+Units mm
+$INDEX
+SRN1060
+$EndINDEX
+$MODULE SRN1060
+Po 0 0 0 15 52EAB59E 00000000 ~~
+Li SRN1060
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0.1 1 1 900 0.15 N V 21 N "SRN1060"
+T1 3.1 -5.6 1 1 0 0.15 N V 21 N "VAL**"
+DS -4.9 -5 4.9 -5 0.15 21
+DS 4.9 -5 4.9 5 0.15 21
+DS 4.9 5 -4.9 5 0.15 21
+DS -4.9 5 -4.9 -5 0.15 21
+$PAD
+Sh "1" R 3.5 10.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.3 0
+$EndPAD
+$PAD
+Sh "2" R 3.5 10.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.3 0
+$EndPAD
+$EndMODULE SRN1060
+$EndLIBRARY

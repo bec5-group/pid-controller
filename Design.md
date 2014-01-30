@@ -92,6 +92,10 @@
 
         TPS7A49
 
+15. Inductors
+
+    SRN1060
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
