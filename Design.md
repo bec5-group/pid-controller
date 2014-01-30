@@ -114,6 +114,7 @@ DG469|±4.5V ~ ±15V (3μA)|||8-MSOP / 8-SOIC
 SG3525A|8V ~ 35V (±400mA Peak)|||16L-SOIC
 TPS7A30||3V ~ 35V|1.19V ~ 33V (150mA)|8-MSOP PowerPad
 TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
+IRF350N||||TO-220
 
 # Power Supply Board
 ![[Power Supply Board Schematic](power/power.png)](power/power.png)
