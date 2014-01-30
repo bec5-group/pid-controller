@@ -1,4 +1,4 @@
-update=2014年01月30日 星期四 15时24分47秒
+update=2014年01月30日 星期四 15时39分49秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -71,8 +71,8 @@ LastNetListRead=test-power.net
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
-PadSizeH="    3.500000"
-PadSizeV="   10.200000"
+PadSizeH="    2.500000"
+PadSizeV="    2.200000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -113,3 +113,4 @@ LibName24=7603900
 LibName25=msop8-9
 LibName26=uwt8x10
 LibName27=srn1060
+LibName28=es2d

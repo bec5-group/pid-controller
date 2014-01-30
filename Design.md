@@ -96,6 +96,10 @@
 
     SRN1060
 
+16. Diode
+
+    ES2D
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
