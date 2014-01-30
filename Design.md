@@ -66,7 +66,13 @@
 
 11. Capacitors
 
-    C1206C*
+    1. Small
+
+        C1206C*
+
+    2. Big
+
+        UWT1E331MNL1GS (330uF, 25V)
 
 12. High Frequency Transformers
 

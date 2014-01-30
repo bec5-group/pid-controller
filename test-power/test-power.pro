@@ -1,4 +1,4 @@
-update=2014年01月30日 星期四 13时53分52秒
+update=2014年01月30日 星期四 15时12分32秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -69,10 +69,10 @@ LibName48=tps7a49
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    1.400000"
+PadSizeV="    4.000000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -111,3 +111,4 @@ LibName22=1814932
 LibName23=84wr
 LibName24=7603900
 LibName25=msop8-9
+LibName26=uwt8x10

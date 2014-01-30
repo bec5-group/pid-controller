@@ -1,0 +1,37 @@
+PCBNEW-LibModule-V1  2014年01月30日 星期四 15时13分24秒
+# encoding utf-8
+Units mm
+$INDEX
+UWT8x10
+$EndINDEX
+$MODULE UWT8x10
+Po 0 0 0 15 52EAB255 00000000 ~~
+Li UWT8x10
+Sc 0
+AR 
+Op 0 0 0
+T0 2.4 0.2 1 1 900 0.15 N V 21 N "UWT8x10"
+T1 -2.9 -4.6 1 1 0 0.15 N V 21 N "VAL**"
+DS -4.2 4.2 4.2 4.2 0.15 21
+DS 4.2 4.2 4.2 -2.6 0.15 21
+DS 4.2 -2.6 2.6 -4.2 0.15 21
+DS 2.6 -4.2 -2.6 -4.2 0.15 21
+DS -2.6 -4.2 -4.2 -2.6 0.15 21
+DS -4.2 -2.6 -4.2 4.2 0.15 21
+DC 0 0 0 -4 0.15 21
+$PAD
+Sh "1" T 1.4 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3
+$EndPAD
+$PAD
+Sh "2" T 1.4 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3
+$EndPAD
+$EndMODULE UWT8x10
+$EndLIBRARY
