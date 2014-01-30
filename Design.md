@@ -104,5 +104,8 @@ TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 # Power Supply Board
 ![[Power Supply Board Schematic](power/power.png)](power/power.png)
 
-# Test Board
-![[Test Board Schematic](test-op/test-op.png)](test-op/test-op.png)
+# Op-Amp Test Board
+![[Op-Amp Test Board Schematic](test-op/test-op.png)](test-op/test-op.png)
+
+# Power Supply Test Board
+![[Power Supply Test Board Schematic](test-power/test-power.png)](test-power/test-power.png)
