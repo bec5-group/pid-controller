@@ -68,6 +68,10 @@
 
     C1206C*
 
+12. Surface Mount High Frequency Transformers
+
+    7603900*
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
