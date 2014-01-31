@@ -1,0 +1,284 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:transfo3-3
+LIBS:sma
+LIBS:rb-1212d
+LIBS:rb-0515s
+LIBS:rb-0512d
+LIBS:rb-0505d
+LIBS:opa827
+LIBS:lmh6505
+LIBS:lm7171
+LIBS:kps-5
+LIBS:dg469
+LIBS:dg468
+LIBS:dg467
+LIBS:ad8421
+LIBS:ad8067
+LIBS:sg3525a
+LIBS:tps7a30
+LIBS:tps7a49
+LIBS:irf530n
+LIBS:isolated-power-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Isolated Power Supply"
+Date "31 jan 2014"
+Rev "2"
+Comp "MIT"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SG3525A U1
+U 1 1 52EA8931
+P 2950 4300
+F 0 "U1" H 2550 3950 60  0000 C CNN
+F 1 "SG3525A" V 2950 4300 60  0000 C CNN
+F 2 "" H 2950 4300 60  0000 C CNN
+F 3 "" H 2950 4300 60  0000 C CNN
+	1    2950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 52EA88E9
+P 2450 5200
+F 0 "C1" H 2450 5300 40  0000 L CNN
+F 1 "0.1u" H 2456 5115 40  0000 L CNN
+F 2 "~" H 2488 5050 30  0000 C CNN
+F 3 "~" H 2450 5200 60  0000 C CNN
+	1    2450 5200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2550 4550
+$Comp
+L GND #PWR01
+U 1 1 52EA8972
+P 2450 5500
+F 0 "#PWR01" H 2450 5500 30  0001 C CNN
+F 1 "GND" H 2450 5430 30  0001 C CNN
+F 2 "" H 2450 5500 60  0000 C CNN
+F 3 "" H 2450 5500 60  0000 C CNN
+	1    2450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 52EA89AD
+P 3000 5150
+F 0 "C2" H 3000 5250 40  0000 L CNN
+F 1 "0.01u" H 3006 5065 40  0000 L CNN
+F 2 "~" H 3038 5000 30  0000 C CNN
+F 3 "~" H 3000 5150 60  0000 C CNN
+	1    3000 5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 4500
+$Comp
+L CP1 C4
+U 1 1 52EA8BD6
+P 4150 4100
+F 0 "C4" H 4200 4200 50  0000 L CNN
+F 1 "330u" H 4200 4000 50  0000 L CNN
+F 2 "~" H 4150 4100 60  0000 C CNN
+F 3 "~" H 4150 4100 60  0000 C CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 52EA8C31
+P 3800 2700
+F 0 "L1" H 3800 2800 50  0000 C CNN
+F 1 "220u" H 3800 2650 50  0000 C CNN
+F 2 "~" H 3800 2700 60  0000 C CNN
+F 3 "~" H 3800 2700 60  0000 C CNN
+	1    3800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 52EA8CD3
+P 3450 3100
+F 0 "C3" H 3450 3200 40  0000 L CNN
+F 1 "1u" H 3456 3015 40  0000 L CNN
+F 2 "~" H 3488 2950 30  0000 C CNN
+F 3 "~" H 3450 3100 60  0000 C CNN
+	1    3450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 52EA8CE2
+P 3450 3400
+F 0 "#PWR02" H 3450 3400 30  0001 C CNN
+F 1 "GND" H 3450 3330 30  0001 C CNN
+F 2 "" H 3450 3400 60  0000 C CNN
+F 3 "" H 3450 3400 60  0000 C CNN
+	1    3450 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2950 2700 0    60   Input ~ 0
+24Vin
+Wire Wire Line
+	2550 3700 2550 4250
+Connection ~ 2550 4150
+Wire Wire Line
+	2850 3800 3100 3800
+Wire Wire Line
+	2550 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 4100
+Connection ~ 2550 4050
+Wire Wire Line
+	2550 4450 2450 4450
+Wire Wire Line
+	2450 4450 2450 5000
+Wire Wire Line
+	2750 4800 2750 4900
+Wire Wire Line
+	2900 4800 2900 4850
+Wire Wire Line
+	2900 4850 3050 4850
+Wire Wire Line
+	3050 4850 3050 4800
+Wire Wire Line
+	3000 4950 3000 4850
+Connection ~ 3000 4850
+Wire Wire Line
+	3000 5400 3000 5350
+Connection ~ 2750 5400
+Connection ~ 3000 5400
+Wire Wire Line
+	2550 4350 2300 4350
+Wire Wire Line
+	2300 4350 2300 5400
+Connection ~ 2450 5400
+Connection ~ 3200 5400
+Wire Wire Line
+	3100 3800 3100 2700
+Connection ~ 3100 3800
+Wire Wire Line
+	3450 2700 3450 2900
+Connection ~ 3450 2700
+Wire Wire Line
+	3450 3300 3450 3400
+Connection ~ 3100 2700
+$Comp
+L CONN_2 P10
+U 1 1 52EAC09C
+P 5000 3100
+F 0 "P10" V 4950 3100 40  0000 C CNN
+F 1 "CONN_2" V 5050 3100 40  0000 C CNN
+F 2 "~" H 5000 3100 60  0000 C CNN
+F 3 "~" H 5000 3100 60  0000 C CNN
+	1    5000 3100
+	-1   0    0    1   
+$EndComp
+Text GLabel 5500 3000 2    60   Input ~ 0
+24Vin
+$Comp
+L GND #PWR03
+U 1 1 52EAC0AC
+P 5500 3250
+F 0 "#PWR03" H 5500 3250 30  0001 C CNN
+F 1 "GND" H 5500 3180 30  0001 C CNN
+F 2 "" H 5500 3250 60  0000 C CNN
+F 3 "" H 5500 3250 60  0000 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3000 5500 3000
+$Comp
+L POT RV3
+U 1 1 52EAC45D
+P 2750 5150
+F 0 "RV3" H 2750 5050 50  0000 C CNN
+F 1 "10k" H 2750 5150 50  0000 C CNN
+F 2 "~" H 2750 5150 60  0000 C CNN
+F 3 "~" H 2750 5150 60  0000 C CNN
+	1    2750 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 5150 2900 4900
+Wire Wire Line
+	2900 4900 2750 4900
+Wire Wire Line
+	2450 5400 2450 5500
+Wire Wire Line
+	5350 3200 5500 3200
+Wire Wire Line
+	5500 3200 5500 3250
+Wire Wire Line
+	3200 5400 3200 4800
+Wire Wire Line
+	2950 2700 3550 2700
+Wire Wire Line
+	4050 2700 4250 2700
+Wire Wire Line
+	4150 2700 4150 3900
+Wire Wire Line
+	2300 5400 4150 5400
+Wire Wire Line
+	4150 5400 4150 4300
+Text GLabel 3450 4200 2    60   Input ~ 0
+SWITCH_A
+Text GLabel 3450 4400 2    60   Input ~ 0
+SWITCH_B
+Wire Wire Line
+	3350 4200 3450 4200
+Wire Wire Line
+	3350 4400 3450 4400
+Text GLabel 4250 2700 2    60   Input ~ 0
+TRANSF_IN
+Connection ~ 4150 2700
+$Sheet
+S 4750 3750 1100 200 
+U 52EBBBAD
+F0 "OutputRegulation" 50
+F1 "OutputRegulation.sch" 50
+$EndSheet
+$Sheet
+S 4750 4200 1100 200 
+U 52EBD596
+F0 "IsolateTransformer" 50
+F1 "IsolateTransformer.sch" 50
+$EndSheet
+$EndSCHEMATC
