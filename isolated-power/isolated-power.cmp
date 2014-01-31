@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年01月31日 星期五 09时51分36秒
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年01月31日 星期五 10时40分02秒
 
 BeginCmp
 TimeStamp = /52EA88E9;
@@ -1324,17 +1324,17 @@ IdModule  = SRN1060;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EBE1BD;
+TimeStamp = /52EAC09C;
 Reference = P1;
-ValeurCmp = CONN_12X2;
-IdModule  = VASCH12x2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAC09C;
-Reference = P10;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+TimeStamp = /52EBC8E3;
+Reference = P2;
+ValeurCmp = CONN_13X2;
+IdModule  = VASCH13x2;
 EndCmp
 
 BeginCmp
@@ -1562,21 +1562,21 @@ IdModule  = RMCF0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EBBBAD/52EBC12E;
+TimeStamp = /52EAC45D;
 Reference = RV1;
 ValeurCmp = 10k;
 IdModule  = 84WR;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EBBBAD/52EBC17D;
+TimeStamp = /52EBBBAD/52EBC12E;
 Reference = RV2;
 ValeurCmp = 10k;
 IdModule  = 84WR;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAC45D;
+TimeStamp = /52EBBBAD/52EBC17D;
 Reference = RV3;
 ValeurCmp = 10k;
 IdModule  = 84WR;

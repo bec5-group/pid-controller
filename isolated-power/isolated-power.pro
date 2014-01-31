@@ -1,4 +1,4 @@
-update=2014年01月31日 星期五 09时50分18秒
+update=2014年01月31日 星期五 10时36分37秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -117,3 +117,4 @@ LibName27=srn1060
 LibName28=es2d
 LibName29=irf530n
 LibName30=conn12x2
+LibName31=conn13x2
