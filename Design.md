@@ -124,3 +124,8 @@ IRF350N||||TO-220
 
 # Power Supply Test Board
 [![Power Supply Test Board Schematic](test-power/test-power-small.png)](test-power/test-power.png)
+
+# Isolated Power Supply
+[![Isolated Power Supply](isolated-power/isolated-power-small.png)](isolated-power/isolated-power.png)
+[![Isolated Power Supply](isolated-power/IsolateTransformer-IsolateTransformer-small.png)](isolated-power/IsolateTransformer-IsolateTransformer.png)
+[![Isolated Power Supply](isolated-power/OutputRegulation-OutputRegulation-small.png)](isolated-power/OutputRegulation-OutputRegulation.png)
