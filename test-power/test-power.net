@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/yuyichao/projects/pid/test-power/test-power.sch)
-    (date "2014年01月30日 星期四 17时01分07秒")
+    (date "2014年01月30日 星期四 19时24分30秒")
     (tool "eeschema (2013-may-18)-stable"))
   (components
     (comp (ref U1)
