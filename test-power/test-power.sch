@@ -55,7 +55,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 jan 2014"
+Date "31 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -118,7 +118,7 @@ F 1 "TRANSFO3-3" H 6200 1300 70  0000 C CNN
 F 2 "~" H 6200 1600 60  0000 C CNN
 F 3 "~" H 6200 1600 60  0000 C CNN
 	1    6200 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CP1 C4
