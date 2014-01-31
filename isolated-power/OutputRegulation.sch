@@ -347,7 +347,7 @@ Wire Wire Line
 	6100 1750 6350 1750
 Connection ~ 6200 1750
 Wire Wire Line
-	3350 2050 7050 2050
+	3350 2050 7150 2050
 Wire Wire Line
 	6500 2000 6500 2100
 Wire Wire Line
@@ -719,7 +719,7 @@ Wire Wire Line
 	6100 3950 6350 3950
 Connection ~ 6200 3950
 Wire Wire Line
-	3350 4250 7050 4250
+	3350 4250 7150 4250
 Wire Wire Line
 	6500 4200 6500 4300
 Wire Wire Line
@@ -1091,7 +1091,7 @@ Wire Wire Line
 	6100 6150 6350 6150
 Connection ~ 6200 6150
 Wire Wire Line
-	3350 6450 7050 6450
+	3350 6450 7150 6450
 Wire Wire Line
 	6500 6400 6500 6500
 Wire Wire Line
@@ -1463,7 +1463,7 @@ Wire Wire Line
 	6100 8350 6350 8350
 Connection ~ 6200 8350
 Wire Wire Line
-	3350 8650 7050 8650
+	3350 8650 7150 8650
 Wire Wire Line
 	6500 8600 6500 8700
 Wire Wire Line
@@ -1835,7 +1835,7 @@ Wire Wire Line
 	11950 1750 12200 1750
 Connection ~ 12050 1750
 Wire Wire Line
-	9200 2050 12900 2050
+	9200 2050 13000 2050
 Wire Wire Line
 	12350 2000 12350 2100
 Wire Wire Line
@@ -2207,7 +2207,7 @@ Wire Wire Line
 	11950 3950 12200 3950
 Connection ~ 12050 3950
 Wire Wire Line
-	9200 4250 12900 4250
+	9200 4250 13000 4250
 Wire Wire Line
 	12350 4200 12350 4300
 Wire Wire Line
@@ -2579,7 +2579,7 @@ Wire Wire Line
 	11950 6150 12200 6150
 Connection ~ 12050 6150
 Wire Wire Line
-	9200 6450 12900 6450
+	9200 6450 13000 6450
 Wire Wire Line
 	12350 6400 12350 6500
 Wire Wire Line
@@ -2951,7 +2951,7 @@ Wire Wire Line
 	11950 8350 12200 8350
 Connection ~ 12050 8350
 Wire Wire Line
-	9200 8650 12900 8650
+	9200 8650 13000 8650
 Wire Wire Line
 	12350 8600 12350 8700
 Wire Wire Line
@@ -3039,4 +3039,20 @@ Text GLabel 13000 9400 2    60   Input ~ 0
 REG-_8
 Connection ~ 12900 7900
 Connection ~ 12900 9400
+Text GLabel 7150 2050 2    60   Input ~ 0
+REG_GND_1
+Text GLabel 7150 4250 2    60   Input ~ 0
+REG_GND_2
+Text GLabel 7150 6450 2    60   Input ~ 0
+REG_GND_3
+Text GLabel 7150 8650 2    60   Input ~ 0
+REG_GND_4
+Text GLabel 13000 2050 2    60   Input ~ 0
+REG_GND_5
+Text GLabel 13000 4250 2    60   Input ~ 0
+REG_GND_6
+Text GLabel 13000 6450 2    60   Input ~ 0
+REG_GND_7
+Text GLabel 13000 8650 2    60   Input ~ 0
+REG_GND_8
 $EndSCHEMATC
