@@ -281,4 +281,15 @@ U 52EBD596
 F0 "IsolateTransformer" 50
 F1 "IsolateTransformer.sch" 50
 $EndSheet
+$Comp
+L CONN_12X2 P1
+U 1 1 52EBE1BD
+P 7950 3550
+F 0 "P1" H 7950 4200 60  0000 C CNN
+F 1 "CONN_12X2" V 7950 3550 50  0000 C CNN
+F 2 "~" H 7950 3550 60  0000 C CNN
+F 3 "~" H 7950 3550 60  0000 C CNN
+	1    7950 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
