@@ -55,7 +55,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "Isolated Power Supply (Isolated Transformers)"
-Date "31 jan 2014"
+Date "1 feb 2014"
 Rev "2"
 Comp "MIT"
 Comment1 ""

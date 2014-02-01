@@ -55,7 +55,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Isolated Power Supply"
-Date "31 jan 2014"
+Date "1 feb 2014"
 Rev "2"
 Comp "MIT"
 Comment1 ""
@@ -284,62 +284,62 @@ $EndSheet
 $Comp
 L CONN_13X2 P2
 U 1 1 52EBC8E3
-P 7950 3650
-F 0 "P2" H 7950 4350 60  0000 C CNN
-F 1 "CONN_13X2" V 7950 3650 50  0000 C CNN
-F 2 "~" H 7950 3650 60  0000 C CNN
-F 3 "~" H 7950 3650 60  0000 C CNN
-	1    7950 3650
-	1    0    0    -1  
+P 7950 3550
+F 0 "P2" H 7950 4250 60  0000 C CNN
+F 1 "CONN_13X2" V 7950 3550 50  0000 C CNN
+F 2 "~" H 7950 3550 60  0000 C CNN
+F 3 "~" H 7950 3550 60  0000 C CNN
+	1    7950 3550
+	-1   0    0    1   
 $EndComp
 Text GLabel 7500 3050 0    30   Input ~ 0
-REG-_1
+REG+_1
 Text GLabel 8400 3050 2    30   Input ~ 0
 REG_GND_1
 Text GLabel 7500 3150 0    30   Input ~ 0
-REG+_1
+REG-_1
 Text GLabel 7500 3250 0    30   Input ~ 0
 REG_GND_2
 Text GLabel 7500 3350 0    30   Input ~ 0
-REG-_3
-Text GLabel 7500 3450 0    30   Input ~ 0
 REG+_3
+Text GLabel 7500 3450 0    30   Input ~ 0
+REG-_3
 Text GLabel 7500 3550 0    30   Input ~ 0
 REG_GND_4
 Text GLabel 7500 3650 0    30   Input ~ 0
-REG-_5
-Text GLabel 7500 3750 0    30   Input ~ 0
 REG+_5
+Text GLabel 7500 3750 0    30   Input ~ 0
+REG-_5
 Text GLabel 7500 3850 0    30   Input ~ 0
 REG_GND_6
 Text GLabel 7500 3950 0    30   Input ~ 0
-REG-_7
-Text GLabel 7500 4050 0    30   Input ~ 0
 REG+_7
+Text GLabel 7500 4050 0    30   Input ~ 0
+REG-_7
 Text GLabel 7500 4150 0    30   Input ~ 0
 REG_GND_8
 Text GLabel 8400 3150 2    30   Input ~ 0
-REG-_2
-Text GLabel 8400 3250 2    30   Input ~ 0
 REG+_2
+Text GLabel 8400 3250 2    30   Input ~ 0
+REG-_2
 Text GLabel 8400 3350 2    30   Input ~ 0
 REG_GND_3
 Text GLabel 8400 3450 2    30   Input ~ 0
-REG-_4
-Text GLabel 8400 3550 2    30   Input ~ 0
 REG+_4
+Text GLabel 8400 3550 2    30   Input ~ 0
+REG-_4
 Text GLabel 8400 3650 2    30   Input ~ 0
 REG_GND_5
 Text GLabel 8400 3750 2    30   Input ~ 0
-REG-_6
-Text GLabel 8400 3850 2    30   Input ~ 0
 REG+_6
+Text GLabel 8400 3850 2    30   Input ~ 0
+REG-_6
 Text GLabel 8400 3950 2    30   Input ~ 0
 REG_GND_7
 Text GLabel 8400 4050 2    30   Input ~ 0
-REG-_8
-Text GLabel 8400 4150 2    30   Input ~ 0
 REG+_8
+Text GLabel 8400 4150 2    30   Input ~ 0
+REG-_8
 Wire Wire Line
 	7500 3050 7550 3050
 Wire Wire Line
@@ -388,6 +388,6 @@ Wire Wire Line
 	8350 3150 8400 3150
 Wire Wire Line
 	8350 3050 8400 3050
-NoConn ~ 7550 4250
-NoConn ~ 8350 4250
+NoConn ~ 7550 2950
+NoConn ~ 8350 2950
 $EndSCHEMATC

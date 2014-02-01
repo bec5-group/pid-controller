@@ -55,7 +55,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
 Title "Isolated Power Supply (Regulators)"
-Date "31 jan 2014"
+Date "1 feb 2014"
 Rev "2"
 Comp "MIT"
 Comment1 ""
