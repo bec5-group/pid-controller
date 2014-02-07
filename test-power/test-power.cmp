@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年02月07日 星期五 13时09分04秒
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年02月07日 星期五 16时12分32秒
 
 BeginCmp
 TimeStamp = /52EA88E9;
@@ -438,6 +438,13 @@ BeginCmp
 TimeStamp = /52F4DF83;
 Reference = R7;
 ValeurCmp = 0.1;
+IdModule  = RMCF0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F55199;
+Reference = R8;
+ValeurCmp = R;
 IdModule  = RMCF0603;
 EndCmp
 
