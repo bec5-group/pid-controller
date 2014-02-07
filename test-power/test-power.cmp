@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年01月30日 星期四 21时37分02秒
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年02月07日 星期五 10时02分18秒
 
 BeginCmp
 TimeStamp = /52EA88E9;
@@ -10,7 +10,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52EA89AD;
 Reference = C2;
-ValeurCmp = 0.01u;
+ValeurCmp = 1n;
 IdModule  = C1206C;
 EndCmp
 
@@ -127,6 +127,48 @@ IdModule  = C1206C;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F4D1CF;
+Reference = C19;
+ValeurCmp = 0.1u;
+IdModule  = C1206C;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4D1DE;
+Reference = C20;
+ValeurCmp = 0.1u;
+IdModule  = C1206C;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4D1ED;
+Reference = C21;
+ValeurCmp = 10u;
+IdModule  = C1206C;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4EC25;
+Reference = C22;
+ValeurCmp = 10u;
+IdModule  = C1206C;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4FDE7;
+Reference = C23;
+ValeurCmp = 10u;
+IdModule  = C1206C;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4F83E;
+Reference = C24;
+ValeurCmp = 10u;
+IdModule  = C1206C;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EA9433;
 Reference = D1;
 ValeurCmp = ES2D;
@@ -152,13 +194,6 @@ TimeStamp = /52EA9460;
 Reference = D4;
 ValeurCmp = ES2D;
 IdModule  = ES2D;
-EndCmp
-
-BeginCmp
-TimeStamp = /52EA97EA;
-Reference = K1;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -204,66 +239,80 @@ IdModule  = SRN1060;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA8E77;
+TimeStamp = /52F4EF79;
+Reference = L7;
+ValeurCmp = 220u;
+IdModule  = SRN1060;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4EF88;
+Reference = L8;
+ValeurCmp = 220u;
+IdModule  = SRN1060;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F50946;
 Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA8EFF;
+TimeStamp = /52F50937;
 Reference = P2;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA9190;
+TimeStamp = /52F50955;
 Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA919F;
+TimeStamp = /52F5117F;
 Reference = P4;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA92CA;
+TimeStamp = /52F50E25;
 Reference = P5;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAA659;
+TimeStamp = /52F51858;
 Reference = P6;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAAAF3;
+TimeStamp = /52F51849;
 Reference = P7;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAA668;
+TimeStamp = /52F51867;
 Reference = P8;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAAAF9;
+TimeStamp = /52F5118E;
 Reference = P9;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
@@ -274,17 +323,59 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAA677;
+TimeStamp = /52F51894;
 Reference = P11;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EAAAFF;
+TimeStamp = /52F51885;
 Reference = P12;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F51876;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F511A7;
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F511B6;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F518B2;
+Reference = P16;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F518C1;
+Reference = P17;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F518A3;
+Reference = P18;
+ValeurCmp = CONN_1;
+IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
@@ -312,6 +403,41 @@ BeginCmp
 TimeStamp = /52EAD3AB;
 Reference = R2;
 ValeurCmp = 51;
+IdModule  = RMCF0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4D193;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = RMCF0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4D1A2;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = RMCF0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4D1C0;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = RMCF0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4D1B1;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = RMCF0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4DF83;
+Reference = R7;
+ValeurCmp = 0.1;
 IdModule  = RMCF0603;
 EndCmp
 
