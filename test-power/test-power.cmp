@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年02月07日 星期五 10时34分46秒
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年02月07日 星期五 13时09分04秒
 
 BeginCmp
 TimeStamp = /52EA88E9;
@@ -281,13 +281,6 @@ IdModule  = 1PIN_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F5117F;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /52F50E25;
 Reference = P5;
 ValeurCmp = CONN_1;
@@ -495,6 +488,13 @@ TimeStamp = /52EAAB0E;
 Reference = U3;
 ValeurCmp = TPS7A30;
 IdModule  = msop8-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F52AF2;
+Reference = U4;
+ValeurCmp = L7812;
+IdModule  = TO220_VERT;
 EndCmp
 
 EndListe
