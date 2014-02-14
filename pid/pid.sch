@@ -63,4 +63,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 1200 850  0    60   Input ~ 0
+Measure
+Text GLabel 1200 1100 0    60   Input ~ 0
+Setpoint
 $EndSCHEMATC
