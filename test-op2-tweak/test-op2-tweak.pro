@@ -1,4 +1,4 @@
-update=2014年03月10日 星期一 23时25分38秒
+update=2014年03月20日 星期四 14时27分08秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -71,10 +71,10 @@ LibName50=transfo3-3
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    0.998220"
+PadDrillOvalY="    0.998220"
+PadSizeH="    1.760220"
+PadSizeV="    1.760220"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -119,3 +119,4 @@ LibName28=rmcf0603
 LibName29=srn1060
 LibName30=TSOP-6
 LibName31=uwt8x10
+LibName32=conn5x2

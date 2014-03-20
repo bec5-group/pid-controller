@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年03月12日 星期三 12时19分50秒
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年03月20日 星期四 14时28分11秒
 
 BeginCmp
 TimeStamp = /5320B3D8/5320B68D;
@@ -291,7 +291,7 @@ BeginCmp
 TimeStamp = /52E838A7;
 Reference = P2;
 ValeurCmp = CONN_5X2;
-IdModule  = VASCH5x2;
+IdModule  = VASCH5x2-2;
 EndCmp
 
 BeginCmp
