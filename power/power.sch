@@ -42,6 +42,7 @@ LIBS:dg468
 LIBS:dg467
 LIBS:ad8421
 LIBS:ad8067
+LIBS:rb-0524s
 LIBS:power-cache
 EELAYER 27 0
 EELAYER END
@@ -49,7 +50,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Power for PID controller"
-Date "28 jan 2014"
+Date "2 apr 2014"
 Rev ""
 Comp "MIT BEC5"
 Comment1 ""
@@ -71,12 +72,12 @@ $EndComp
 $Comp
 L KPS-5 U1
 U 1 1 52E78312
-P 3900 4900
-F 0 "U1" H 3900 5000 60  0000 C CNN
-F 1 "KPS-5" H 3900 4800 60  0000 C CNN
-F 2 "~" H 3900 4900 60  0000 C CNN
-F 3 "~" H 3900 4900 60  0000 C CNN
-	1    3900 4900
+P 3700 6900
+F 0 "U1" H 3700 7000 60  0000 C CNN
+F 1 "KPS-5" H 3700 6800 60  0000 C CNN
+F 2 "~" H 3700 6900 60  0000 C CNN
+F 3 "~" H 3700 6900 60  0000 C CNN
+	1    3700 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -333,4 +334,109 @@ Wire Wire Line
 NoConn ~ 8400 3800
 NoConn ~ 8400 3900
 NoConn ~ 8400 4000
+$Comp
+L CONN_3 K?
+U 1 1 533AD55D
+P 2900 6000
+F 0 "K?" V 2850 6000 50  0000 C CNN
+F 1 "CONN_3" V 2950 6000 40  0000 C CNN
+F 2 "~" H 2900 6000 60  0000 C CNN
+F 3 "~" H 2900 6000 60  0000 C CNN
+	1    2900 6000
+	-1   0    0    1   
+$EndComp
+Text GLabel 3350 5900 2    60   Input ~ 0
+AC_N
+Text GLabel 3350 6000 2    60   Input ~ 0
+AC_L
+Text GLabel 3350 6100 2    60   Input ~ 0
+GND_IN
+Wire Wire Line
+	3250 5900 3350 5900
+Wire Wire Line
+	3250 6000 3350 6000
+Wire Wire Line
+	3250 6100 3350 6100
+Text GLabel 2700 6500 0    60   Input ~ 0
+AC_N
+Text GLabel 2700 7300 0    60   Input ~ 0
+AC_L
+Text GLabel 2700 6900 0    60   Input ~ 0
+GND_IN
+$Comp
+L C C?
+U 1 1 533AD679
+P 2900 6700
+F 0 "C?" H 2900 6800 40  0000 L CNN
+F 1 "C" H 2906 6615 40  0000 L CNN
+F 2 "~" H 2938 6550 30  0000 C CNN
+F 3 "~" H 2900 6700 60  0000 C CNN
+	1    2900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 533AD688
+P 2900 7100
+F 0 "C?" H 2900 7200 40  0000 L CNN
+F 1 "C" H 2906 7015 40  0000 L CNN
+F 2 "~" H 2938 6950 30  0000 C CNN
+F 3 "~" H 2900 7100 60  0000 C CNN
+	1    2900 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6900 2900 6900
+Wire Wire Line
+	2700 6500 3200 6500
+Wire Wire Line
+	2700 7300 3200 7300
+Wire Wire Line
+	3200 6500 3200 6800
+Connection ~ 2900 6500
+Wire Wire Line
+	3200 7300 3200 7000
+Connection ~ 2900 7300
+Text GLabel 4200 6550 1    60   Input ~ 0
+GND_IN
+Wire Wire Line
+	4200 6550 4200 6800
+Wire Wire Line
+	4200 7000 4450 7000
+Wire Wire Line
+	4450 6600 4200 6600
+Connection ~ 4200 6600
+$Comp
+L CP1 C?
+U 1 1 533AD9CB
+P 4450 6800
+F 0 "C?" H 4500 6900 50  0000 L CNN
+F 1 "CP1" H 4500 6700 50  0000 L CNN
+F 2 "~" H 4450 6800 60  0000 C CNN
+F 3 "~" H 4450 6800 60  0000 C CNN
+	1    4450 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L RB-0524S U?
+U 1 1 533B760A
+P 5250 6050
+F 0 "U?" H 5250 6150 60  0000 C CNN
+F 1 "RB-0524S" H 5250 5800 60  0000 C CNN
+F 2 "~" H 5250 6050 60  0000 C CNN
+F 3 "~" H 5250 6050 60  0000 C CNN
+	1    5250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RB-0524S U?
+U 1 1 533B7617
+P 5250 6750
+F 0 "U?" H 5250 6850 60  0000 C CNN
+F 1 "RB-0524S" H 5250 6500 60  0000 C CNN
+F 2 "~" H 5250 6750 60  0000 C CNN
+F 3 "~" H 5250 6750 60  0000 C CNN
+	1    5250 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

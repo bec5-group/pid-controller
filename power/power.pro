@@ -1,4 +1,4 @@
-update=2014年01月28日 星期二 13时03分18秒
+update=2014年04月02日 星期三 07时27分20秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -60,14 +60,16 @@ LibName40=dg468
 LibName41=dg467
 LibName42=ad8421
 LibName43=ad8067
+LibName44=rb-0524s
+LibName45=pds1-m
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.000000"
-PadDrillOvalY="    0.000000"
-PadSizeH="    0.508000"
-PadSizeV="    2.286000"
+PadDrill="    0.600000"
+PadDrillOvalY="    0.600000"
+PadSizeH="    1.500000"
+PadSizeV="    1.500000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -100,3 +102,4 @@ LibName16=valves
 LibName17=recom_rb
 LibName18=kps5
 LibName19=84wr
+LibName20=pds1-m
