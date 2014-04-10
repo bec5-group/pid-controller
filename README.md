@@ -94,7 +94,17 @@
 
 15. Inductors
 
-    SRN1060
+    1. Large
+
+        SRN1060
+
+    2. Small
+
+        MLZ2012
+
+    3. Ferrite Beads
+
+        CIM21J252NE
 
 16. Diode
 
