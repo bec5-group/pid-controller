@@ -49,6 +49,8 @@ LIBS:sma
 LIBS:tps7a30
 LIBS:tps7a49
 LIBS:transfo3-3
+LIBS:pds1-m
+LIBS:rb-0524s
 LIBS:test-op2-cache
 EELAYER 27 0
 EELAYER END

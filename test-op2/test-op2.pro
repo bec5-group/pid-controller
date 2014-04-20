@@ -1,4 +1,4 @@
-update=2014年03月10日 星期一 23时25分38秒
+update=2014年04月20日 星期日 18时21分55秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -67,6 +67,8 @@ LibName47=sma
 LibName48=tps7a30
 LibName49=tps7a49
 LibName50=transfo3-3
+LibName51=pds1-m
+LibName52=rb-0524s
 [pcbnew]
 version=1
 LastNetListRead=
@@ -119,3 +121,5 @@ LibName28=rmcf0603
 LibName29=srn1060
 LibName30=TSOP-6
 LibName31=uwt8x10
+LibName32=conn5x2
+LibName33=pds1-m
