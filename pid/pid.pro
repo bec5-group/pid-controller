@@ -1,4 +1,4 @@
-update=2014年02月13日 星期四 12时22分20秒
+update=2014年04月21日 星期一 13时59分32秒
 version=1
 last_client=eeschema
 [cvpcb]
@@ -6,27 +6,29 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
+PadDrill="    0.600000"
+PadDrillOvalY="    0.600000"
+PadSizeH="    1.500000"
+PadSizeV="    1.500000"
+PcbTextSizeV="    1.500000"
+PcbTextSizeH="    1.500000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.000000"
+ModuleTextSizeH="    1.000000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
+LibDir=../libs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,8 +45,23 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
+LibName17=84wr
+LibName18=1814932
+LibName19=7603900
+LibName20=c1206c
+LibName21=conn12x2
+LibName22=conn13x2
+LibName23=es2d
+LibName24=irf530n
+LibName25=kps5
+LibName26=msop8-9
+LibName27=recom_rb
+LibName28=rmcf0603
+LibName29=srn1060
+LibName30=TSOP-6
+LibName31=uwt8x10
+LibName32=conn5x2
+LibName33=pds1-m
 [eeschema]
 version=1
 LibDir=../libs
@@ -104,3 +121,6 @@ LibName47=sma
 LibName48=tps7a30
 LibName49=tps7a49
 LibName50=transfo3-3
+LibName51=pds1-m
+LibName52=rb-0524s
+LibName53=max44251
