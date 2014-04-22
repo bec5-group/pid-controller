@@ -19,21 +19,17 @@
 
     1. Normal Close
 
-        DG467
+        [DG467](http://www.vishay.com/docs/74413/dg467.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG467DV-T1-E3/DG467DV-T1-E3CT-ND/1850089)
 
     2. Normal Open
 
-        DG468
-
-    3. SPDT
-
-        DG469
+        [DG468](http://www.vishay.com/docs/74413/dg467.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG468DV-T1-E3/DG468DV-T1-E3CT-ND/1850090)
 
 6. Power Supply
 
     1. AC-DC
 
-        KPS5-5
+        [KPS5-5](http://www.us.tdk-lambda.com/ftp/Specs/kps.pdf) [Digikey](http://www.digikey.com/product-detail/en/KPS55/285-1421-ND/1631591)
 
     2. DC-DC
 
@@ -102,7 +98,6 @@ AD8421BR|±2.5V ~ ±18V (2mA)|(V-)+2.3V ~ (V+)-1.8V|(V-)+1.2V ~ (V+)-1.6V|8-MSOP
 LMH6505|±3.5V ~ ±6V (2μA)|±7mA / ±0.6V|±2.4V~±3V|8-MSOP / 8-SOIC
 LM7171BIM|±2.75V ~ ±18V (7mA)|±10V (?)|±10V (For ±15V)|8-SOIC
 DG467/DG468|±4.5V ~ ±20V (20μA)|||6-TSOP
-DG469|±4.5V ~ ±15V (3μA)|||8-MSOP / 8-SOIC
 TPS7A30||3V ~ 35V|1.19V ~ 33V (150mA)|8-MSOP PowerPad
 TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 
@@ -111,6 +106,3 @@ TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 
 # Op-Amp Test Board
 [![Op-Amp Test Board Schematic](test-op/test-op-small.png)](test-op/test-op.png)
-
-# Power Supply Test Board
-[![Power Supply Test Board Schematic](test-power/test-power-small.png)](test-power/test-power.png)
