@@ -1,4 +1,4 @@
-update=2014年04月21日 星期一 13时59分32秒
+update=2014年04月24日 星期四 14时15分37秒
 version=1
 last_client=eeschema
 [cvpcb]
@@ -124,3 +124,4 @@ LibName50=transfo3-3
 LibName51=pds1-m
 LibName52=rb-0524s
 LibName53=max44251
+LibName54=r_div

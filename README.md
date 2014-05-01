@@ -25,6 +25,10 @@
 
         [DG468](http://www.vishay.com/docs/74413/dg467.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG468DV-T1-E3/DG468DV-T1-E3CT-ND/1850090)
 
+    3. SPDT
+
+        [DG469](http://www.vishay.com/docs/71470/dg469.pdf) [Digikey]
+
 6. Power Supply
 
     1. AC-DC

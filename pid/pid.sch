@@ -52,14 +52,15 @@ LIBS:transfo3-3
 LIBS:pds1-m
 LIBS:rb-0524s
 LIBS:max44251
+LIBS:r_div
 LIBS:pid-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 27
+Sheet 1 47
 Title "PID Controller"
-Date "22 apr 2014"
+Date "1 may 2014"
 Rev "1"
 Comp "MIT BEC5"
 Comment1 ""
@@ -68,65 +69,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SMA P1
-U 1 1 52E83007
-P 950 1000
-F 0 "P1" H 950 1050 60  0000 C CNN
-F 1 "In1" H 950 950 60  0000 C CNN
-F 2 "" H 950 1000 60  0000 C CNN
-F 3 "" H 950 1000 60  0000 C CNN
-	1    950  1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMA P2
-U 1 1 52E83016
-P 950 1800
-F 0 "P2" H 950 1850 60  0000 C CNN
-F 1 "In2" H 950 1750 60  0000 C CNN
-F 2 "" H 950 1800 60  0000 C CNN
-F 3 "" H 950 1800 60  0000 C CNN
-	1    950  1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMA P3
-U 1 1 52E83025
-P 950 2550
-F 0 "P3" H 950 2600 60  0000 C CNN
-F 1 "In3" H 950 2500 60  0000 C CNN
-F 2 "" H 950 2550 60  0000 C CNN
-F 3 "" H 950 2550 60  0000 C CNN
-	1    950  2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMA P4
-U 1 1 52E83034
-P 950 3300
-F 0 "P4" H 950 3350 60  0000 C CNN
-F 1 "In4" H 950 3250 60  0000 C CNN
-F 2 "" H 950 3300 60  0000 C CNN
-F 3 "" H 950 3300 60  0000 C CNN
-	1    950  3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 52E830AB
-P 700 3800
-F 0 "#PWR01" H 700 3800 30  0001 C CNN
-F 1 "GND" H 700 3730 30  0001 C CNN
-F 2 "" H 700 3800 60  0000 C CNN
-F 3 "" H 700 3800 60  0000 C CNN
-	1    700  3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_5X2 P14
+L CONN_5X2 P2
 U 1 1 52E838A7
 P 4250 950
-F 0 "P14" H 4250 1250 60  0000 C CNN
+F 0 "P2" H 4250 1250 60  0000 C CNN
 F 1 "CONN_5X2" V 4250 950 50  0000 C CNN
 F 2 "~" H 4250 950 60  0000 C CNN
 F 3 "~" H 4250 950 60  0000 C CNN
@@ -137,168 +83,15 @@ Text GLabel 3550 1500 0    60   Input ~ 0
 -15V
 Text GLabel 3550 900  0    60   Input ~ 0
 +15V
-Wire Wire Line
-	700  700  1050 700 
-Wire Wire Line
-	700  1300 1050 1300
-Connection ~ 700  1300
-Connection ~ 850  1300
-Connection ~ 850  700 
-Wire Wire Line
-	700  1500 1050 1500
-Connection ~ 700  1500
-Connection ~ 850  1500
-Wire Wire Line
-	700  2100 1050 2100
-Connection ~ 700  2100
-Connection ~ 850  2100
-Wire Wire Line
-	700  2250 1050 2250
-Connection ~ 700  2250
-Connection ~ 850  2250
-Wire Wire Line
-	700  2850 1050 2850
-Connection ~ 700  2850
-Connection ~ 850  2850
-Wire Wire Line
-	700  3000 1050 3000
-Connection ~ 700  3000
-Connection ~ 850  3000
-Wire Wire Line
-	700  3600 1050 3600
-Connection ~ 700  3600
-Connection ~ 850  3600
-Wire Wire Line
-	1400 1000 1250 1000
-Wire Wire Line
-	1250 1800 1400 1800
-Wire Wire Line
-	1400 2550 1250 2550
-Wire Wire Line
-	1250 3300 1400 3300
 Text GLabel 3550 1100 0    60   Input ~ 0
 -5V
 Text GLabel 3550 1300 0    60   Input ~ 0
 +5V
-Text GLabel 1400 1000 2    60   Input ~ 0
-In1
-Text GLabel 1400 1800 2    60   Input ~ 0
-In2
-Text GLabel 1400 2550 2    60   Input ~ 0
-In3
-Text GLabel 1400 3300 2    60   Input ~ 0
-In4
-Text GLabel 2650 1000 2    60   Input ~ 0
-Out1
-Text GLabel 2650 1800 2    60   Input ~ 0
-Out2
-Text GLabel 2650 2550 2    60   Input ~ 0
-Out3
-Text GLabel 2650 3300 2    60   Input ~ 0
-Out4
-Wire Wire Line
-	700  700  700  3800
 $Comp
-L SMA P9
-U 1 1 5320CB57
-P 2200 1000
-F 0 "P9" H 2200 1050 60  0000 C CNN
-F 1 "Out1" H 2200 950 60  0000 C CNN
-F 2 "" H 2200 1000 60  0000 C CNN
-F 3 "" H 2200 1000 60  0000 C CNN
-	1    2200 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMA P10
-U 1 1 5320CB5D
-P 2200 1800
-F 0 "P10" H 2200 1850 60  0000 C CNN
-F 1 "Out2" H 2200 1750 60  0000 C CNN
-F 2 "" H 2200 1800 60  0000 C CNN
-F 3 "" H 2200 1800 60  0000 C CNN
-	1    2200 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMA P11
-U 1 1 5320CB63
-P 2200 2550
-F 0 "P11" H 2200 2600 60  0000 C CNN
-F 1 "Out3" H 2200 2500 60  0000 C CNN
-F 2 "" H 2200 2550 60  0000 C CNN
-F 3 "" H 2200 2550 60  0000 C CNN
-	1    2200 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L SMA P12
-U 1 1 5320CB69
-P 2200 3300
-F 0 "P12" H 2200 3350 60  0000 C CNN
-F 1 "Out4" H 2200 3250 60  0000 C CNN
-F 2 "" H 2200 3300 60  0000 C CNN
-F 3 "" H 2200 3300 60  0000 C CNN
-	1    2200 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 5320CB6F
-P 1950 3800
-F 0 "#PWR03" H 1950 3800 30  0001 C CNN
-F 1 "GND" H 1950 3730 30  0001 C CNN
-F 2 "" H 1950 3800 60  0000 C CNN
-F 3 "" H 1950 3800 60  0000 C CNN
-	1    1950 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 700  2300 700 
-Wire Wire Line
-	1950 1300 2300 1300
-Connection ~ 1950 1300
-Connection ~ 2100 1300
-Connection ~ 2100 700 
-Wire Wire Line
-	1950 1500 2300 1500
-Connection ~ 1950 1500
-Connection ~ 2100 1500
-Wire Wire Line
-	1950 2100 2300 2100
-Connection ~ 1950 2100
-Connection ~ 2100 2100
-Wire Wire Line
-	1950 2250 2300 2250
-Connection ~ 1950 2250
-Connection ~ 2100 2250
-Wire Wire Line
-	1950 2850 2300 2850
-Connection ~ 1950 2850
-Connection ~ 2100 2850
-Wire Wire Line
-	1950 3000 2300 3000
-Connection ~ 1950 3000
-Connection ~ 2100 3000
-Wire Wire Line
-	1950 3600 2300 3600
-Connection ~ 1950 3600
-Connection ~ 2100 3600
-Wire Wire Line
-	2650 1000 2500 1000
-Wire Wire Line
-	2500 1800 2650 1800
-Wire Wire Line
-	2650 2550 2500 2550
-Wire Wire Line
-	2500 3300 2650 3300
-Wire Wire Line
-	1950 700  1950 3800
-$Comp
-L CONN_13X2 P13
+L CONN_13X2 P1
 U 1 1 5321407F
 P 4200 2470
-F 0 "P13" H 4200 3170 60  0000 C CNN
+F 0 "P1" H 4200 3170 60  0000 C CNN
 F 1 "CONN_13X2" V 4200 2470 50  0000 C CNN
 F 2 "~" H 4200 2470 60  0000 C CNN
 F 3 "~" H 4200 2470 60  0000 C CNN
@@ -306,36 +99,444 @@ F 3 "~" H 4200 2470 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6050 3600 550  200 
-U 5355C3A0
-F0 "Comp_P" 50
-F1 "Comp_P.sch" 50
-F2 "In" I L 6050 3650 60 
-F3 "Ctrl" I L 6050 3750 60 
-F4 "Out" I R 6600 3700 60 
-$EndSheet
-$Sheet
-S 6050 4050 550  200 
+S 3950 4100 550  200 
 U 5355B409
 F0 "Comp_D" 50
 F1 "Comp_D.sch" 50
-F2 "In" I L 6050 4100 60 
-F3 "Ctrl" I L 6050 4200 60 
-F4 "Out" I R 6600 4150 60 
+F2 "In" I L 3950 4150 60 
+F3 "Ctrl" I L 3950 4250 60 
+F4 "Out" I R 4500 4200 60 
 $EndSheet
 $Sheet
-S 6050 4500 550  500 
+S 3950 4550 550  500 
 U 53562461
 F0 "Comp_I" 50
 F1 "Comp_I.sch" 50
-F2 "In" I L 6050 4550 60 
-F3 "Off1" I L 6050 4650 60 
-F4 "Off2" I L 6050 4750 60 
-F5 "Off3" I L 6050 4850 60 
-F6 "Off4" I L 6050 4950 60 
-F7 "Out" I R 6600 4600 60 
-F8 "HOLD" I R 6600 4700 60 
-F9 "RST" I R 6600 4800 60 
-F10 "Ctrl" I R 6600 4900 60 
+F2 "In" I L 3950 4600 60 
+F3 "Off1" I L 3950 4700 60 
+F4 "Off2" I L 3950 4800 60 
+F5 "Off3" I L 3950 4900 60 
+F6 "Off4" I L 3950 5000 60 
+F7 "Out" I R 4500 4650 60 
+F8 "HOLD" I R 4500 4750 60 
+F9 "RST" I R 4500 4850 60 
+F10 "Ctrl" I R 4500 4950 60 
 $EndSheet
+$Sheet
+S 1800 4050 500  200 
+U 53566DD6
+F0 "Instrumentation" 50
+F1 "Instrumentation.sch" 50
+F2 "In+" I L 1800 4200 60 
+F3 "In-" I L 1800 4100 60 
+F4 "Out" I R 2300 4150 60 
+$EndSheet
+Wire Wire Line
+	1600 4000 1700 4000
+Wire Wire Line
+	1700 4000 1700 4100
+Wire Wire Line
+	1700 4100 1800 4100
+Wire Wire Line
+	1700 4200 1800 4200
+Wire Wire Line
+	2300 4150 2400 4150
+$Sheet
+S 700  650  500  200 
+U 5357E647
+F0 "SMA" 50
+F1 "SMA.sch" 50
+F2 "Out" I R 1200 750 60 
+$EndSheet
+$Comp
+L R R1
+U 1 1 5357F057
+P 3600 3700
+F 0 "R1" V 3680 3700 40  0000 C CNN
+F 1 "200" V 3607 3701 40  0000 C CNN
+F 2 "~" V 3530 3700 30  0000 C CNN
+F 3 "~" H 3600 3700 30  0000 C CNN
+	1    3600 3700
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 3950 3650 550  200 
+U 5355C3A0
+F0 "Comp_P" 50
+F1 "Comp_P.sch" 50
+F2 "In" I L 3950 3700 60 
+F3 "Ctrl" I L 3950 3800 60 
+F4 "Out" I R 4500 3750 60 
+$EndSheet
+Wire Wire Line
+	4500 3750 4700 3750
+$Sheet
+S 2400 4100 550  200 
+U 535846D4
+F0 "ScaleError" 50
+F1 "ScaleError.sch" 50
+F2 "In" I L 2400 4150 60 
+F3 "Out" I R 2950 4150 60 
+F4 "Monitor" I R 2950 4250 60 
+$EndSheet
+$Comp
+L R R2
+U 1 1 535866DE
+P 3600 4150
+F 0 "R2" V 3680 4150 40  0000 C CNN
+F 1 "200" V 3607 4151 40  0000 C CNN
+F 2 "~" V 3530 4150 30  0000 C CNN
+F 3 "~" H 3600 4150 30  0000 C CNN
+	1    3600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 535866E4
+P 3600 4600
+F 0 "R3" V 3680 4600 40  0000 C CNN
+F 1 "200" V 3607 4601 40  0000 C CNN
+F 2 "~" V 3530 4600 30  0000 C CNN
+F 3 "~" H 3600 4600 30  0000 C CNN
+	1    3600 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3850 3700 3950 3700
+Wire Wire Line
+	3950 4150 3850 4150
+Wire Wire Line
+	3850 4600 3950 4600
+Wire Wire Line
+	2950 4150 3350 4150
+Wire Wire Line
+	3250 3700 3250 4600
+Wire Wire Line
+	3250 3700 3350 3700
+Connection ~ 3250 4150
+Wire Wire Line
+	3250 4600 3350 4600
+Wire Wire Line
+	2950 4250 3050 4250
+Wire Wire Line
+	3050 4250 3050 4350
+Wire Wire Line
+	4600 5200 4500 5200
+Wire Wire Line
+	3750 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 4250
+Wire Wire Line
+	3850 4250 3950 4250
+Wire Wire Line
+	3750 3900 3850 3900
+Wire Wire Line
+	3850 3900 3850 3800
+Wire Wire Line
+	3850 3800 3950 3800
+Wire Wire Line
+	4500 4950 4600 4950
+Wire Wire Line
+	4600 4950 4600 5200
+$Comp
+L GND #PWR01
+U 1 1 5358C6D5
+P 4600 3950
+F 0 "#PWR01" H 4600 3950 30  0001 C CNN
+F 1 "GND" H 4600 3880 30  0001 C CNN
+F 2 "" H 4600 3950 60  0000 C CNN
+F 3 "" H 4600 3950 60  0000 C CNN
+	1    4600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3950 4600 3850
+Wire Wire Line
+	4600 3850 4700 3850
+Wire Wire Line
+	5500 3650 5400 3650
+Wire Wire Line
+	5400 3650 5400 3750
+Wire Wire Line
+	5400 3750 5300 3750
+Wire Wire Line
+	4500 4200 4700 4200
+$Sheet
+S 4700 4150 600  200 
+U 5358D04C
+F0 "D_Switch" 50
+F1 "Switch_SPDT.sch" 50
+F2 "NC" I L 4700 4300 60 
+F3 "IN" I R 5300 4200 60 
+F4 "COM" I R 5300 4300 60 
+F5 "NO" I L 4700 4200 60 
+$EndSheet
+$Comp
+L GND #PWR02
+U 1 1 5358D052
+P 4600 4400
+F 0 "#PWR02" H 4600 4400 30  0001 C CNN
+F 1 "GND" H 4600 4330 30  0001 C CNN
+F 2 "" H 4600 4400 60  0000 C CNN
+F 3 "" H 4600 4400 60  0000 C CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4400 4600 4300
+Wire Wire Line
+	4600 4300 4700 4300
+Wire Wire Line
+	5500 4100 5400 4100
+Wire Wire Line
+	5400 4100 5400 4200
+Wire Wire Line
+	5400 4200 5300 4200
+Wire Wire Line
+	4500 4650 5100 4650
+$Sheet
+S 5100 4600 600  200 
+U 5358D353
+F0 "I_Switch" 50
+F1 "Switch_SPDT.sch" 50
+F2 "NC" I L 5100 4750 60 
+F3 "IN" I R 5700 4650 60 
+F4 "COM" I R 5700 4750 60 
+F5 "NO" I L 5100 4650 60 
+$EndSheet
+$Comp
+L GND #PWR03
+U 1 1 5358D359
+P 5000 4850
+F 0 "#PWR03" H 5000 4850 30  0001 C CNN
+F 1 "GND" H 5000 4780 30  0001 C CNN
+F 2 "" H 5000 4850 60  0000 C CNN
+F 3 "" H 5000 4850 60  0000 C CNN
+	1    5000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4850 5000 4750
+Wire Wire Line
+	5000 4750 5100 4750
+Wire Wire Line
+	5900 4550 5800 4550
+Wire Wire Line
+	5800 4550 5800 4650
+Wire Wire Line
+	5800 4650 5700 4650
+$Comp
+L R R4
+U 1 1 53592E87
+P 5750 3850
+F 0 "R4" V 5830 3850 40  0000 C CNN
+F 1 "2k" V 5757 3851 40  0000 C CNN
+F 2 "~" V 5680 3850 30  0000 C CNN
+F 3 "~" H 5750 3850 30  0000 C CNN
+	1    5750 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 53592E94
+P 5750 4300
+F 0 "R5" V 5830 4300 40  0000 C CNN
+F 1 "2k" V 5757 4301 40  0000 C CNN
+F 2 "~" V 5680 4300 30  0000 C CNN
+F 3 "~" H 5750 4300 30  0000 C CNN
+	1    5750 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R6
+U 1 1 53592E9A
+P 6150 4750
+F 0 "R6" V 6230 4750 40  0000 C CNN
+F 1 "2k" V 6157 4751 40  0000 C CNN
+F 2 "~" V 6080 4750 30  0000 C CNN
+F 3 "~" H 6150 4750 30  0000 C CNN
+	1    6150 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 4750 4850 4750
+Wire Wire Line
+	4850 4750 4850 5000
+Wire Wire Line
+	4850 5000 4950 5000
+Wire Wire Line
+	4500 4850 4750 4850
+Wire Wire Line
+	4750 4850 4750 5200
+Wire Wire Line
+	4750 5200 4950 5200
+Text Label 1600 4000 2    60   ~ 0
+Measure
+Text Label 1600 4300 2    60   ~ 0
+SetPoint
+Text Label 3750 3900 2    60   ~ 0
+P_Ctrl
+Text Label 3750 4350 2    60   ~ 0
+D_Ctrl
+Text Label 4500 5200 2    60   ~ 0
+I_Ctrl
+Text Label 3050 4350 3    60   ~ 0
+Monitor
+Text Label 5500 3650 0    60   ~ 0
+P_On
+Text Label 5500 4100 0    60   ~ 0
+D_On
+Text Label 5900 4550 0    60   ~ 0
+I_On
+Text Label 4950 5000 0    60   ~ 0
+Hold
+Text Label 4950 5200 0    60   ~ 0
+Reset
+NoConn ~ 3950 4900
+NoConn ~ 3950 5000
+Wire Wire Line
+	5300 3850 5500 3850
+Wire Wire Line
+	5500 4300 5300 4300
+Wire Wire Line
+	5700 4750 5900 4750
+Wire Wire Line
+	6000 3850 6400 3850
+Wire Wire Line
+	6400 3850 6400 5800
+Wire Wire Line
+	6000 4300 6400 4300
+Connection ~ 6400 4300
+Wire Wire Line
+	1700 4200 1700 4800
+Wire Wire Line
+	1700 4300 1600 4300
+$Sheet
+S 7550 3150 600  200 
+U 5359A966
+F0 "D_Switch" 50
+F1 "Switch_SPDT.sch" 50
+F2 "NC" I L 7550 3300 60 
+F3 "IN" I R 8150 3200 60 
+F4 "COM" I R 8150 3300 60 
+F5 "NO" I L 7550 3200 60 
+$EndSheet
+$Sheet
+S 4700 3700 600  200 
+U 5358A076
+F0 "P_Switch" 50
+F1 "Switch_SPDT.sch" 50
+F2 "NC" I L 4700 3850 60 
+F3 "IN" I R 5300 3750 60 
+F4 "COM" I R 5300 3850 60 
+F5 "NO" I L 4700 3750 60 
+$EndSheet
+$Sheet
+S 1850 4750 550  200 
+U 536270FD
+F0 "ScaleFeedForward" 50
+F1 "ScaleFeedForward.sch" 50
+F2 "Out" I R 2400 4800 60 
+F3 "In1" I L 1850 4800 60 
+F4 "In2" I L 1850 4900 60 
+F5 "Select" I R 2400 4900 60 
+$EndSheet
+Wire Wire Line
+	1700 4800 1850 4800
+Connection ~ 1700 4300
+Text Label 1600 4900 2    60   ~ 0
+FeedForward
+Wire Wire Line
+	1600 4900 1850 4900
+Text Label 2500 5050 3    60   ~ 0
+FF_Select
+Wire Wire Line
+	2500 5050 2500 4900
+Wire Wire Line
+	2500 4900 2400 4900
+$Sheet
+S 2800 5600 550  200 
+U 5362BBC7
+F0 "Comp_FF" 50
+F1 "Comp_P.sch" 50
+F2 "In" I L 2800 5650 60 
+F3 "Ctrl" I L 2800 5750 60 
+F4 "Out" I R 3350 5700 60 
+$EndSheet
+Wire Wire Line
+	2400 4800 2700 4800
+Text Label 2700 5850 3    60   ~ 0
+FF_Ctrl
+Wire Wire Line
+	2700 5850 2700 5750
+Wire Wire Line
+	2700 5750 2800 5750
+$Comp
+L R R?
+U 1 1 5362CD0F
+P 2700 5300
+F 0 "R?" V 2780 5300 40  0000 C CNN
+F 1 "200" V 2707 5301 40  0000 C CNN
+F 2 "~" V 2630 5300 30  0000 C CNN
+F 3 "~" H 2700 5300 30  0000 C CNN
+	1    2700 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 5550 2700 5650
+Wire Wire Line
+	2700 5650 2800 5650
+Wire Wire Line
+	2700 4800 2700 5050
+$Sheet
+S 3600 5650 600  200 
+U 5362D599
+F0 "FF_Switch" 50
+F1 "Switch_SPDT.sch" 50
+F2 "NC" I L 3600 5800 60 
+F3 "IN" I R 4200 5700 60 
+F4 "COM" I R 4200 5800 60 
+F5 "NO" I L 3600 5700 60 
+$EndSheet
+$Comp
+L GND #PWR?
+U 1 1 5362D59F
+P 3500 5900
+F 0 "#PWR?" H 3500 5900 30  0001 C CNN
+F 1 "GND" H 3500 5830 30  0001 C CNN
+F 2 "" H 3500 5900 60  0000 C CNN
+F 3 "" H 3500 5900 60  0000 C CNN
+	1    3500 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5900 3500 5800
+Wire Wire Line
+	3500 5800 3600 5800
+Wire Wire Line
+	3350 5700 3600 5700
+Wire Wire Line
+	4400 5600 4300 5600
+Wire Wire Line
+	4300 5600 4300 5700
+Wire Wire Line
+	4300 5700 4200 5700
+Text Label 4400 5600 0    60   ~ 0
+FF_On
+$Comp
+L R R?
+U 1 1 5362E125
+P 4600 5800
+F 0 "R?" V 4680 5800 40  0000 C CNN
+F 1 "2k" V 4607 5801 40  0000 C CNN
+F 2 "~" V 4530 5800 30  0000 C CNN
+F 3 "~" H 4600 5800 30  0000 C CNN
+	1    4600 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 5800 4850 5800
+Connection ~ 6400 4750
+Wire Wire Line
+	4350 5800 4200 5800
 $EndSCHEMATC
