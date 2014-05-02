@@ -1,11 +1,11 @@
 * DONE Feed forward
 ** DONE Gain control
 ** DONE Input output switches
-* TODO Output
-** TODO Output Offset
-** TODO Output Limit
-** TODO Output Polarity
-** TODO Output Buffer
+* DONE Output
+** DONE Output Offset
+** DONE Output Limit
+** DONE Output Polarity
+** DONE Output Buffer
 * TODO Adjust
 ** TODO Integrator offset
 ** TODO Integrator reset
