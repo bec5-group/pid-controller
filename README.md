@@ -1,39 +1,39 @@
 # Parts Selection
 1. Input buffer
 
-    [AD8421BR](http://www.analog.com/static/imported-files/data_sheets/AD8421.pdf) [Digikey](http://www.digikey.com/product-detail/en/AD8421BRZ/AD8421BRZ-ND/3340513)
+    [AD8421BR](http://www.analog.com/static/imported-files/data_sheets/AD8421.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/AD8421BRZ/AD8421BRZ-ND/3340513)
 
 2. Variable gain
 
-    [LMH6505](http://www.ti.com/lit/ds/symlink/lmh6505.pdf) [Digikey](http://www.digikey.com/product-detail/en/LMH6505MA%2FNOPB/LMH6505MA%2FNOPB-ND/1084405)
+    [LMH6505](http://www.ti.com/lit/ds/symlink/lmh6505.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/LMH6505MA%2FNOPB/LMH6505MA%2FNOPB-ND/1084405)
 
 3. General Purpose
 
-    [LM7171BIM](http://www.ti.com/lit/ds/symlink/lm7171.pdf) [Digikey](http://www.digikey.com/product-detail/en/LM7171BIMX%2FNOPB/LM7171BIMX%2FNOPBCT-ND/3767451)
+    [LM7171BIM](http://www.ti.com/lit/ds/symlink/lm7171.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/LM7171BIMX%2FNOPB/LM7171BIMX%2FNOPBCT-ND/3767451)
 
 4. Low Frequency Low Noise Amplifier
 
-    [MAX44251](http://datasheets.maximintegrated.com/en/ds/MAX44250-MAX44252.pdf) [Digikey](http://www.digikey.com/product-detail/en/MAX44251AUA%2B/MAX44251AUA%2B-ND/2591581)
+    [MAX44251](http://datasheets.maximintegrated.com/en/ds/MAX44250-MAX44252.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/MAX44251AUA%2B/MAX44251AUA%2B-ND/2591581)
 
 5. Analog Switches
 
     1. Normal Close
 
-        [DG467](http://www.vishay.com/docs/74413/dg467.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG467DV-T1-E3/DG467DV-T1-E3CT-ND/1850089)
+        [DG467](http://www.vishay.com/docs/74413/dg467.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/DG467DV-T1-E3/DG467DV-T1-E3CT-ND/1850089)
 
     2. Normal Open
 
-        [DG468](http://www.vishay.com/docs/74413/dg467.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG468DV-T1-E3/DG468DV-T1-E3CT-ND/1850090)
+        [DG468](http://www.vishay.com/docs/74413/dg467.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/DG468DV-T1-E3/DG468DV-T1-E3CT-ND/1850090)
 
     3. SPDT
 
-        [DG469](http://www.vishay.com/docs/71470/dg469.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG469EY-T1-E3/DG469EY-T1-E3CT-ND/1850092)
+        [DG469](http://www.vishay.com/docs/71470/dg469.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/DG469EY-T1-E3/DG469EY-T1-E3CT-ND/1850092)
 
 6. Power Supply
 
     1. AC-DC
 
-        [KPS5-5](http://www.us.tdk-lambda.com/ftp/Specs/kps.pdf) [Digikey](http://www.digikey.com/product-detail/en/KPS55/285-1421-ND/1631591)
+        [KPS5-5](http://www.us.tdk-lambda.com/ftp/Specs/kps.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/KPS55/285-1421-ND/1631591)
 
     2. DC-DC
 
@@ -64,7 +64,7 @@
 
     2. Precision Voltage Divider
 
-        [MAX5490TA05000](http://datasheets.maximintegrated.com/en/ds/MAX5490.pdf) [DigiKey](http://www.digikey.com/product-detail/en/MAX5490TA05000%2BT/MAX5490TA05000%2BTCT-ND/1987093)
+        [MAX5490TA05000](http://datasheets.maximintegrated.com/en/ds/MAX5490.pdf) [(DigiKey)](http://www.digikey.com/product-detail/en/MAX5490TA05000%2BT/MAX5490TA05000%2BTCT-ND/1987093)
 
 10. Capacitors
 
@@ -102,7 +102,7 @@
 
 13. RF Diode
 
-    [MMBD770T1G](http://www.onsemi.com/pub_link/Collateral/MMBD330T1-D.PDF) [DigiKey](http://www.digikey.com/product-detail/en/MMBD770T1G/MMBD770T1GOSCT-ND/2121089)
+    [MMBD770T1G](http://www.onsemi.com/pub_link/Collateral/MMBD330T1-D.PDF) [(DigiKey)](http://www.digikey.com/product-detail/en/MMBD770T1G/MMBD770T1GOSCT-ND/2121089)
 
 # Specifications
 
