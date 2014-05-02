@@ -27,7 +27,7 @@
 
     3. SPDT
 
-        [DG469](http://www.vishay.com/docs/71470/dg469.pdf) [Digikey]
+        [DG469](http://www.vishay.com/docs/71470/dg469.pdf) [Digikey](http://www.digikey.com/product-detail/en/DG469EY-T1-E3/DG469EY-T1-E3CT-ND/1850092)
 
 6. Power Supply
 
@@ -58,7 +58,13 @@
 
 9. Resistors
 
-    RMCF0603FT*
+    1. Single
+
+        RMCF0603FT*
+
+    2. Precision Voltage Divider
+
+        [MAX5490TA05000](http://datasheets.maximintegrated.com/en/ds/MAX5490.pdf) [DigiKey](http://www.digikey.com/product-detail/en/MAX5490TA05000%2BT/MAX5490TA05000%2BTCT-ND/1987093)
 
 10. Capacitors
 
@@ -94,14 +100,20 @@
 
         CIM21J252NE
 
+13. RF Diode
+
+    [MMBD770T1G](http://www.onsemi.com/pub_link/Collateral/MMBD330T1-D.PDF) [DigiKey](http://www.digikey.com/product-detail/en/MMBD770T1G/MMBD770T1GOSCT-ND/2121089)
+
 # Specifications
 
 Part Number|Power|Input|Output|Packaging
 -----------|-----|-----|------|---------
 AD8421BR|±2.5V ~ ±18V (2mA)|(V-)+2.3V ~ (V+)-1.8V|(V-)+1.2V ~ (V+)-1.6V|8-MSOP / 8-SOIC
-LMH6505|±3.5V ~ ±6V (2μA)|±7mA / ±0.6V|±2.4V~±3V|8-MSOP / 8-SOIC
+LMH6505|±3.5V ~ ±6V (2μA)|±7mA / ±0.6V|±2.4V ~ ±3V|8-MSOP / 8-SOIC
 LM7171BIM|±2.75V ~ ±18V (7mA)|±10V (?)|±10V (For ±15V)|8-SOIC
+MAX44251|±1.35V ~ ±10V (1.15mA)|(V-)-0.05V ~ (V+)-1.5V|(V-)+0.03V ~ (V+) - 0.05V|8-MSOP / SOT-23-8
 DG467/DG468|±4.5V ~ ±20V (20μA)|||6-TSOP
+DG469|±4.5V ~ ±20V (20μA)|||8-MSOP / 8-SOIC
 TPS7A30||3V ~ 35V|1.19V ~ 33V (150mA)|8-MSOP PowerPad
 TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 
