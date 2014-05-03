@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年05月02日 星期五 12时10分06秒
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = 2014年05月02日 星期五 19时25分35秒
 
 BeginCmp
 TimeStamp = /5355B409/53598F26;
@@ -913,6 +913,62 @@ EndCmp
 BeginCmp
 TimeStamp = /5363DBC8;
 Reference = C131;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355B409/53598F2F/5364299E;
+Reference = C132;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355B409/53598F2F/536429A4;
+Reference = C133;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53562461/53555E75/5364299E;
+Reference = C134;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53562461/53555E75/536429A4;
+Reference = C135;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355C3A0/53598F30/5364299E;
+Reference = C136;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355C3A0/53598F30/536429A4;
+Reference = C137;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5362BBC7/53598F30/5364299E;
+Reference = C138;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5362BBC7/53598F30/536429A4;
+Reference = C139;
 ValeurCmp = 10u;
 IdModule  = SM1206;
 EndCmp
