@@ -13,7 +13,10 @@
    viewBox="0 0 84803.597 84159.016"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="pid-B_Cu.svg">
+   sodipodi:docname="pid-B_Cu.svg"
+   inkscape:export-filename="/home/yuyichao/projects/pid/pid/pid-B_Cu.png"
+   inkscape:export-xdpi="300.02576"
+   inkscape:export-ydpi="300.02576">
   <metadata
      id="metadata2806">
     <rdf:RDF>
@@ -22,6 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>SVG Picture created as pid-B_Cu.svg date 2014/05/08 10:07:54 </dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
