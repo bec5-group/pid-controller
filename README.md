@@ -126,7 +126,7 @@ TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 [![Op-Amp Test Board Schematic](test-op/test-op-small.png)](test-op/test-op.png?raw=true)
 
 # PID Board
-[![PID Board Front Side](pid/pid-F.png)](pid/pid-F.png?raw=true)
-[![PID Board Inner2](pid/pid-Inner2_Cu.png)](pid/pid-Inner2_Cu.png?raw=true)
-[![PID Board Inner1](pid/pid-Inner1_Cu.png)](pid/pid-Inner1_Cu.png?raw=true)
-[![PID Board Back Side](pid/pid-B.png)](pid/pid-B.png?raw=true)
+[![PID Board Front Side](pid/pid-F-small.png)](pid/pid-F.png?raw=true)
+[![PID Board Inner2](pid/pid-Inner2_Cu-small.png)](pid/pid-Inner2_Cu.png?raw=true)
+[![PID Board Inner1](pid/pid-Inner1_Cu-small.png)](pid/pid-Inner1_Cu.png?raw=true)
+[![PID Board Back Side](pid/pid-B-small.png)](pid/pid-B.png?raw=true)
