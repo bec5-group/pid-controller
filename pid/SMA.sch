@@ -60,7 +60,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 22 53
 Title ""
-Date "2 may 2014"
+Date "5 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -85,15 +85,15 @@ F 3 "" H 3300 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR71
+L GND #PWR071
 U 1 1 5357E7CE
 P 3050 4900
-AR Path="/5357E647/5357E7CE" Ref="#PWR71"  Part="1" 
-AR Path="/536425B8/5357E7CE" Ref="#PWR150"  Part="1" 
-AR Path="/5364286A/5357E7CE" Ref="#PWR151"  Part="1" 
-AR Path="/5364286D/5357E7CE" Ref="#PWR152"  Part="1" 
-AR Path="/53642A89/5357E7CE" Ref="#PWR153"  Part="1" 
-F 0 "#PWR153" H 3050 4900 30  0001 C CNN
+AR Path="/5357E647/5357E7CE" Ref="#PWR071"  Part="1" 
+AR Path="/536425B8/5357E7CE" Ref="#PWR0150"  Part="1" 
+AR Path="/5364286A/5357E7CE" Ref="#PWR0151"  Part="1" 
+AR Path="/5364286D/5357E7CE" Ref="#PWR0152"  Part="1" 
+AR Path="/53642A89/5357E7CE" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 3050 4900 30  0001 C CNN
 F 1 "GND" H 3050 4830 30  0001 C CNN
 F 2 "" H 3050 4900 60  0000 C CNN
 F 3 "" H 3050 4900 60  0000 C CNN
