@@ -58,7 +58,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Power for PID controller"
-Date "22 apr 2014"
+Date "8 may 2014"
 Rev ""
 Comp "MIT BEC5"
 Comment1 ""
@@ -104,7 +104,7 @@ AC_N
 Text GLabel 6850 1700 2    60   Input ~ 0
 AC_L
 Text GLabel 6850 1800 2    60   Input ~ 0
-GND_IN
+0
 Wire Wire Line
 	6750 1600 6850 1600
 Wire Wire Line
@@ -795,46 +795,6 @@ Wire Wire Line
 	3550 4750 3700 4750
 Wire Wire Line
 	5100 4400 5250 4400
-Text GLabel 3950 5350 0    60   Input ~ 0
-0
-$Comp
-L C C11
-U 1 1 5345C293
-P 4050 5650
-F 0 "C11" H 4050 5750 40  0000 L CNN
-F 1 "1uF" H 4056 5565 40  0000 L CNN
-F 2 "~" H 4088 5500 30  0000 C CNN
-F 3 "~" H 4050 5650 60  0000 C CNN
-	1    4050 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 5345C29B
-P 4350 5650
-F 0 "R1" V 4430 5650 40  0000 C CNN
-F 1 "0" V 4357 5651 40  0000 C CNN
-F 2 "~" V 4280 5650 30  0000 C CNN
-F 3 "~" H 4350 5650 30  0000 C CNN
-	1    4350 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 5350 4350 5350
-Wire Wire Line
-	4350 5350 4350 5400
-Wire Wire Line
-	4050 5450 4050 5350
-Connection ~ 4050 5350
-Text GLabel 3950 5950 0    60   Input ~ 0
-GND_IN
-Wire Wire Line
-	4350 5900 4350 5950
-Wire Wire Line
-	4350 5950 3950 5950
-Wire Wire Line
-	4050 5850 4050 5950
-Connection ~ 4050 5950
 Text GLabel 4450 4750 2    60   Input ~ 0
 0_2
 Wire Wire Line
@@ -862,7 +822,7 @@ F 3 "~" H 6800 4700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 2600 7400 2600
+	5850 2600 7400 2600
 Wire Wire Line
 	6800 2600 6800 2700
 Text GLabel 5100 3200 0    60   Input ~ 0
@@ -1010,7 +970,7 @@ F 3 "~" H 6800 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 3500 7400 3500
+	5850 3500 7400 3500
 Wire Wire Line
 	6800 3500 6800 3600
 Wire Wire Line
@@ -1134,7 +1094,7 @@ Connection ~ 8950 4100
 Text GLabel 5100 4100 0    60   Input ~ 0
 0_2
 Wire Wire Line
-	6450 4400 7400 4400
+	5850 4400 7400 4400
 Wire Wire Line
 	5100 5000 9250 5000
 $Comp
@@ -1282,7 +1242,7 @@ F 3 "~" H 6800 5600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 5300 7400 5300
+	5850 5300 7400 5300
 Wire Wire Line
 	5100 5900 9250 5900
 $Comp
@@ -1513,126 +1473,6 @@ Connection ~ 10100 1850
 Connection ~ 10100 1750
 Connection ~ 10100 1650
 Connection ~ 10100 1550
-$Comp
-L R R6
-U 1 1 5346C50A
-P 6550 2900
-F 0 "R6" V 6630 2900 40  0000 C CNN
-F 1 "50k" V 6557 2901 40  0000 C CNN
-F 2 "~" V 6480 2900 30  0000 C CNN
-F 3 "~" H 6550 2900 30  0000 C CNN
-	1    6550 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 5346C519
-P 6200 2600
-F 0 "R2" V 6280 2600 40  0000 C CNN
-F 1 "50" V 6207 2601 40  0000 C CNN
-F 2 "~" V 6130 2600 30  0000 C CNN
-F 3 "~" H 6200 2600 30  0000 C CNN
-	1    6200 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R7
-U 1 1 5346C57E
-P 6550 3800
-F 0 "R7" V 6630 3800 40  0000 C CNN
-F 1 "2k" V 6557 3801 40  0000 C CNN
-F 2 "~" V 6480 3800 30  0000 C CNN
-F 3 "~" H 6550 3800 30  0000 C CNN
-	1    6550 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3
-U 1 1 5346C584
-P 6200 3500
-F 0 "R3" V 6280 3500 40  0000 C CNN
-F 1 "5" V 6207 3501 40  0000 C CNN
-F 2 "~" V 6130 3500 30  0000 C CNN
-F 3 "~" H 6200 3500 30  0000 C CNN
-	1    6200 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R8
-U 1 1 5346C58A
-P 6550 4700
-F 0 "R8" V 6630 4700 40  0000 C CNN
-F 1 "2k" V 6557 4701 40  0000 C CNN
-F 2 "~" V 6480 4700 30  0000 C CNN
-F 3 "~" H 6550 4700 30  0000 C CNN
-	1    6550 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 5346C590
-P 6200 4400
-F 0 "R4" V 6280 4400 40  0000 C CNN
-F 1 "5" V 6207 4401 40  0000 C CNN
-F 2 "~" V 6130 4400 30  0000 C CNN
-F 3 "~" H 6200 4400 30  0000 C CNN
-	1    6200 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R9
-U 1 1 5346C596
-P 6550 5600
-F 0 "R9" V 6630 5600 40  0000 C CNN
-F 1 "50k" V 6557 5601 40  0000 C CNN
-F 2 "~" V 6480 5600 30  0000 C CNN
-F 3 "~" H 6550 5600 30  0000 C CNN
-	1    6550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 5346C59C
-P 6200 5300
-F 0 "R5" V 6280 5300 40  0000 C CNN
-F 1 "50" V 6207 5301 40  0000 C CNN
-F 2 "~" V 6130 5300 30  0000 C CNN
-F 3 "~" H 6200 5300 30  0000 C CNN
-	1    6200 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5850 2600 5950 2600
-Wire Wire Line
-	6550 2650 6550 2600
-Connection ~ 6550 2600
-Wire Wire Line
-	6550 3150 6550 3200
-Connection ~ 6550 3200
-Wire Wire Line
-	5850 3500 5950 3500
-Wire Wire Line
-	6550 3550 6550 3500
-Connection ~ 6550 3500
-Wire Wire Line
-	6550 4050 6550 4100
-Connection ~ 6550 4100
-Wire Wire Line
-	5850 4400 5950 4400
-Wire Wire Line
-	6550 4400 6550 4450
-Connection ~ 6550 4400
-Wire Wire Line
-	6550 4950 6550 5000
-Connection ~ 6550 5000
-Wire Wire Line
-	5850 5300 5950 5300
-Wire Wire Line
-	6550 5300 6550 5350
-Connection ~ 6550 5300
-Wire Wire Line
-	6550 5850 6550 5900
-Connection ~ 6550 5900
 Text GLabel 9250 2050 3    60   Input ~ 0
 GND
 Connection ~ 9250 2000
