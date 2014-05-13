@@ -1,0 +1,218 @@
+EESchema Schematic File Version 2
+LIBS:ad8067
+LIBS:ad8421
+LIBS:dg467
+LIBS:dg468
+LIBS:dg469
+LIBS:irf530n
+LIBS:kps-5
+LIBS:l78xx
+LIBS:lm7171
+LIBS:lmh6505
+LIBS:max44251
+LIBS:opa827
+LIBS:pds1-m
+LIBS:rb-0505d
+LIBS:rb-0512d
+LIBS:rb-0515s
+LIBS:rb-0524s
+LIBS:rb-1212d
+LIBS:r_div
+LIBS:sg3525a
+LIBS:sma
+LIBS:tps7a30
+LIBS:tps7a49
+LIBS:transfo3-3
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pid-tweak-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 21 21
+Title ""
+Date "12 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4600 2650 2    60   Input ~ 0
+Out
+$Comp
+L CONN_3 K1
+U 1 1 5370DED9
+P 3950 2650
+AR Path="/536EEEF4/5370DED9" Ref="K1"  Part="1" 
+AR Path="/5370E9BE/5370DED9" Ref="K8"  Part="1" 
+AR Path="/5370EBF3/5370DED9" Ref="K9"  Part="1" 
+AR Path="/5370EBF6/5370DED9" Ref="K10"  Part="1" 
+AR Path="/53710258/5370DED9" Ref="K15"  Part="1" 
+AR Path="/5371062C/5370DED9" Ref="K16"  Part="1" 
+AR Path="/53710779/5370DED9" Ref="K17"  Part="1" 
+AR Path="/5371077C/5370DED9" Ref="K18"  Part="1" 
+AR Path="/53710CAD/5370DED9" Ref="K19"  Part="1" 
+AR Path="/53710CB0/5370DED9" Ref="K20"  Part="1" 
+AR Path="/53710CB3/5370DED9" Ref="K21"  Part="1" 
+AR Path="/53710CB6/5370DED9" Ref="K22"  Part="1" 
+AR Path="/53711BCE/5370DED9" Ref="K23"  Part="1" 
+F 0 "K23" V 3900 2650 50  0000 C CNN
+F 1 "CONN_3" V 4000 2650 40  0000 C CNN
+F 2 "~" H 3950 2650 60  0000 C CNN
+F 3 "~" H 3950 2650 60  0000 C CNN
+	1    3950 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 537150D0
+P 3950 3100
+AR Path="/536EEEF4/537150D0" Ref="P3"  Part="1" 
+AR Path="/5370E9BE/537150D0" Ref="P7"  Part="1" 
+AR Path="/5370EBF3/537150D0" Ref="P8"  Part="1" 
+AR Path="/5370EBF6/537150D0" Ref="P9"  Part="1" 
+AR Path="/53710258/537150D0" Ref="P12"  Part="1" 
+AR Path="/5371062C/537150D0" Ref="P13"  Part="1" 
+AR Path="/53710779/537150D0" Ref="P14"  Part="1" 
+AR Path="/5371077C/537150D0" Ref="P15"  Part="1" 
+AR Path="/53710CAD/537150D0" Ref="P16"  Part="1" 
+AR Path="/53710CB0/537150D0" Ref="P17"  Part="1" 
+AR Path="/53710CB3/537150D0" Ref="P18"  Part="1" 
+AR Path="/53710CB6/537150D0" Ref="P19"  Part="1" 
+AR Path="/53711BCE/537150D0" Ref="P20"  Part="1" 
+F 0 "P20" V 3900 3100 40  0000 C CNN
+F 1 "CONN_2" V 4000 3100 40  0000 C CNN
+F 2 "~" H 3950 3100 60  0000 C CNN
+F 3 "~" H 3950 3100 60  0000 C CNN
+	1    3950 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 537150D1
+P 4400 3250
+AR Path="/536EEEF4/537150D1" Ref="#PWR018"  Part="1" 
+AR Path="/5370E9BE/537150D1" Ref="#PWR032"  Part="1" 
+AR Path="/5370EBF3/537150D1" Ref="#PWR034"  Part="1" 
+AR Path="/5370EBF6/537150D1" Ref="#PWR036"  Part="1" 
+AR Path="/53710258/537150D1" Ref="#PWR035"  Part="1" 
+AR Path="/5371062C/537150D1" Ref="#PWR037"  Part="1" 
+AR Path="/53710779/537150D1" Ref="#PWR039"  Part="1" 
+AR Path="/5371077C/537150D1" Ref="#PWR041"  Part="1" 
+AR Path="/53710CAD/537150D1" Ref="#PWR043"  Part="1" 
+AR Path="/53710CB0/537150D1" Ref="#PWR045"  Part="1" 
+AR Path="/53710CB3/537150D1" Ref="#PWR047"  Part="1" 
+AR Path="/53710CB6/537150D1" Ref="#PWR049"  Part="1" 
+AR Path="/53711BCE/537150D1" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 4400 3250 30  0001 C CNN
+F 1 "GND" H 4400 3180 30  0001 C CNN
+F 2 "" H 4400 3250 60  0000 C CNN
+F 3 "" H 4400 3250 60  0000 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 2450 2    60   Input ~ 0
++5V
+Wire Wire Line
+	4600 2450 4450 2450
+Wire Wire Line
+	4450 2450 4450 2550
+Wire Wire Line
+	4450 2550 4300 2550
+Wire Wire Line
+	4300 2650 4600 2650
+Wire Wire Line
+	4300 3000 4500 3000
+Wire Wire Line
+	4500 2650 4500 3150
+Connection ~ 4500 2650
+Wire Wire Line
+	4300 2750 4400 2750
+Wire Wire Line
+	4400 2750 4400 3250
+Wire Wire Line
+	4300 3200 4400 3200
+Connection ~ 4400 3200
+$Comp
+L R R3
+U 1 1 537103D4
+P 4500 3400
+AR Path="/536EEEF4/537103D4" Ref="R3"  Part="1" 
+AR Path="/5370E9BE/537103D4" Ref="R20"  Part="1" 
+AR Path="/5370EBF3/537103D4" Ref="R21"  Part="1" 
+AR Path="/5370EBF6/537103D4" Ref="R22"  Part="1" 
+AR Path="/53710258/537103D4" Ref="R27"  Part="1" 
+AR Path="/5371062C/537103D4" Ref="R28"  Part="1" 
+AR Path="/53710779/537103D4" Ref="R29"  Part="1" 
+AR Path="/5371077C/537103D4" Ref="R30"  Part="1" 
+AR Path="/53710CAD/537103D4" Ref="R31"  Part="1" 
+AR Path="/53710CB0/537103D4" Ref="R32"  Part="1" 
+AR Path="/53710CB3/537103D4" Ref="R33"  Part="1" 
+AR Path="/53710CB6/537103D4" Ref="R34"  Part="1" 
+AR Path="/53711BCE/537103D4" Ref="R35"  Part="1" 
+F 0 "R35" V 4580 3400 40  0000 C CNN
+F 1 "200k" V 4507 3401 40  0000 C CNN
+F 2 "~" V 4430 3400 30  0000 C CNN
+F 3 "~" H 4500 3400 30  0000 C CNN
+	1    4500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 537103E1
+P 4500 3800
+AR Path="/536EEEF4/537103E1" Ref="#PWR019"  Part="1" 
+AR Path="/5370E9BE/537103E1" Ref="#PWR033"  Part="1" 
+AR Path="/5370EBF3/537103E1" Ref="#PWR035"  Part="1" 
+AR Path="/5370EBF6/537103E1" Ref="#PWR037"  Part="1" 
+AR Path="/53710258/537103E1" Ref="#PWR036"  Part="1" 
+AR Path="/5371062C/537103E1" Ref="#PWR038"  Part="1" 
+AR Path="/53710779/537103E1" Ref="#PWR040"  Part="1" 
+AR Path="/5371077C/537103E1" Ref="#PWR042"  Part="1" 
+AR Path="/53710CAD/537103E1" Ref="#PWR044"  Part="1" 
+AR Path="/53710CB0/537103E1" Ref="#PWR046"  Part="1" 
+AR Path="/53710CB3/537103E1" Ref="#PWR048"  Part="1" 
+AR Path="/53710CB6/537103E1" Ref="#PWR050"  Part="1" 
+AR Path="/53711BCE/537103E1" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 4500 3800 30  0001 C CNN
+F 1 "GND" H 4500 3730 30  0001 C CNN
+F 2 "" H 4500 3800 60  0000 C CNN
+F 3 "" H 4500 3800 60  0000 C CNN
+	1    4500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3800 4500 3650
+Connection ~ 4500 3000
+$EndSCHEMATC
