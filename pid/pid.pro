@@ -1,4 +1,4 @@
-update=2014年05月02日 星期五 11时38分41秒
+update=2014年05月14日 星期三 18时02分53秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -73,7 +73,7 @@ LibName53=max44251
 LibName54=r_div
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=pid.net
 UseCmpFile=1
 PadDrill="    0.600000"
 PadDrillOvalY="    0.600000"
@@ -125,3 +125,5 @@ LibName30=TSOP-6
 LibName31=uwt8x10
 LibName32=conn5x2
 LibName33=pds1-m
+LibName34=SM1206_V
+LibName35=SM0603_V
