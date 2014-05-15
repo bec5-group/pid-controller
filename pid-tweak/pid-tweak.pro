@@ -1,4 +1,4 @@
-update=2014年05月12日 星期一 09时45分18秒
+update=2014年05月15日 星期四 13时45分04秒
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -125,3 +125,5 @@ LibName30=rmcf0603
 LibName31=srn1060
 LibName32=TSOP-6
 LibName33=uwt8x10
+LibName34=SM0603_V
+LibName35=SM1206_V

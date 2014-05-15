@@ -130,3 +130,7 @@ TPS7A49||-3V ~ - 35V|-1.18 ~ -33V (200mA)|8-MSOP PowerPad
 [![PID Board Inner2](pid/pid-Inner2_Cu-small.png)](pid/pid-Inner2_Cu.png?raw=true)
 [![PID Board Inner1](pid/pid-Inner1_Cu-small.png)](pid/pid-Inner1_Cu.png?raw=true)
 [![PID Board Back Side](pid/pid-B-small.png)](pid/pid-B.png?raw=true)
+
+# PID Tweak Board
+[![PID Tweak Board Front Side](pid-tweak/pid-tweak-F-small.png)](pid-tweak/pid-tweak-F.png?raw=true)
+[![PID Tweak Board Back Side](pid-tweak/pid-tweak-B-small.png)](pid-tweak/pid-tweak-B.png?raw=true)
