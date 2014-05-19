@@ -60,7 +60,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 53
 Title ""
-Date "5 may 2014"
+Date "19 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -434,31 +434,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 3900 6200 3300
 Wire Wire Line
-	6200 3300 5750 3300
-Wire Wire Line
 	6100 3800 6100 4050
 Wire Wire Line
 	8350 3300 8450 3300
 Connection ~ 8400 3300
-$Comp
-L C C26
-U 1 1 53558A6B
-P 5750 3550
-F 0 "C26" H 5750 3650 40  0000 L CNN
-F 1 "1p" H 5756 3465 40  0000 L CNN
-F 2 "~" H 5788 3400 30  0000 C CNN
-F 3 "~" H 5750 3550 60  0000 C CNN
-	1    5750 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 3300 5750 3350
-Connection ~ 6100 3300
-Wire Wire Line
-	5750 3750 5750 3800
-Wire Wire Line
-	5750 3800 6100 3800
-Connection ~ 6100 3800
 Connection ~ 5900 3100
 Connection ~ 5900 4150
 $Comp
@@ -707,4 +686,8 @@ Wire Wire Line
 Connection ~ 7200 4150
 Wire Wire Line
 	4600 2950 4700 2950
+Wire Wire Line
+	6200 3300 6100 3300
+Connection ~ 6200 3300
+Connection ~ 6200 3100
 $EndSCHEMATC
